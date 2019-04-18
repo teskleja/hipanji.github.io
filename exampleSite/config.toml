@@ -6,6 +6,10 @@ theme = "hugo-hello-programmer-theme"
 themesdir = "../.."
 
 paginate = 2
+summaryLength: 13
+author:
+  name: Jake Rayson
+  email: hello@growdigital.org
 
 disqusShortname = "XXXX"
 googleAnalytics = "UA-XXXXXXXX-X"
