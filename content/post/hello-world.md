@@ -1,4 +1,4 @@
-+++ date = "2016-10-19T23:35:00+09:00" title = "Post title" description = "Post Description" categories = [ "programming", "golang", ] tags = [ "hugo", "theme" ]
++++ date = "2019-04-17T12:31:27Z" title = "Post title" description = "Post Description" categories = [ "programming", "golang", ] tags = [ "hugo", "theme" ]
 
 +++
 
