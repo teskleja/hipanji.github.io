@@ -2,13 +2,7 @@ baseurl = "https://arhen.dev"
 title = "Arhen Software Engineer"
 languageCode = "id-ID"
 
-theme = "hugo-hello-programmer-theme"
-themesdir = "../.."
-
 paginate = 2
-
-disqusShortname = "XXXX"
-googleAnalytics = "UA-XXXXXXXX-X"
 
 [author]
     name = "arhen"
