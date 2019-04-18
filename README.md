@@ -1,8 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/484c773f-1085-410e-81e2-e90ae759b1e6/deploy-status)](https://app.netlify.com/sites/arhen/deploys)
+
 # Arhen.Dev Website based on Hugo Hello Programmer Theme
 
-Hello this is my website . u can view it ![here](https://arhen.dev)
+Hello this is my website . u can view it (https://arhen.dev)
 
-![get theme here](https://github.com/lubang/hugo-hello-programmer-theme)
+Get Theme (https://github.com/lubang/hugo-hello-programmer-theme)
 
 ## Overview
 This is my first time using JAMStack. And i really enjoyed it.
