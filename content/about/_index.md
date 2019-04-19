@@ -4,7 +4,10 @@ title = "About"
 hidden = true
 +++
 
-Before you wanna know more about me, I just want to say that if you searching for someone that love and strict to the PRINCIPAL things when build product, so here you are.
+Before you wanna know more about me, I just want to say that if you searching for someone that love and strict to the PRINCIPAL things when build product,
+So here you are.
+
+******
 
 ### Hi! There.
 
