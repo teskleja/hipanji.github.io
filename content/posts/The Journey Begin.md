@@ -2,6 +2,9 @@
 title = "The Journey Begin"
 description = "This is my first post on this website. Finally I've started something that I want to do for such a long time ago."
 date = "2019-04-19"
+tags = [
+    "Now",
+]
 categories = [
     "Now",
 ]
