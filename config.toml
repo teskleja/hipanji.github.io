@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https:arhen.dev"
+baseurl = "https://arhen.dev"
 languageCode = "en"
 title = "Arhen Personal Web"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
