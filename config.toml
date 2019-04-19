@@ -1,7 +1,9 @@
 # Site settings
 baseurl = "https://arhen.dev/"
-languageCode = "id"
+languageCode = "id-ID"
 title = "Arhen | Web Developer"
+
+theme = "cactus-plus"
 
 googleAnalytics = "UA-138671457-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
