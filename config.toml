@@ -1,7 +1,9 @@
 # Site settings
 baseurl = "https://arhen.dev/"
-languageCode = "en"
+languageCode = "id"
 title = "Arhen | Web Developer"
+
+googleAnalytics = "UA-138671457-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
@@ -70,3 +72,4 @@ hasCJKLanguage = false
 [social]
 	twitter-square = "https://www.twitter.com/arhen_desu"
 	github-square = "https://www.github.com/arhen"
+	linkedin-square = "https://www.linkedin.com/in/rahmadslamet"
