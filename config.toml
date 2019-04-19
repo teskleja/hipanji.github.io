@@ -23,7 +23,7 @@ hasCJKLanguage = false
 
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
+	useDescriptionReplaceSummary = true
 
 
 	enableGoogleAnalytics = true
@@ -59,13 +59,13 @@ hasCJKLanguage = false
 	share = ""
 
 	# 404 page
-	title404 = ""
-	subtitle404 = ""
+	title404 = "Opps! This place is called 404."
+	subtitle404 = "You entered in the wrong room buddy! Go back."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = "rounded"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "rounded"
 
 
 # Add additional social link entries underneath
