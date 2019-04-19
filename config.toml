@@ -2,7 +2,6 @@
 baseurl = "https:arhen.dev"
 languageCode = "en"
 title = "Arhen Personal Web"
-theme = "arhen.dev"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
