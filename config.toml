@@ -1,14 +1,14 @@
 # Site settings
 baseurl = "https://arhen.dev/"
 languageCode = "en"
-title = "Arhen Personal Web"
+title = "Arhen | Web Developer"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
 [params]
 	author = "arhen"
 	description = "This is Arhen Personal Website, known as Rahmat H Slamet."
-	bio = "An engineer who likes to solve problems, and learn new things. Quickly adapt both individually or teams. Specifically very much in love with Linux and Web Technology. My technical skill is around Web Planning then Development using PHP Native/Framework and C# Asp.Net Core. "
+	bio = "Life with passion!"
 
 	twitter = "arhen_desu"
 
@@ -61,9 +61,9 @@ hasCJKLanguage = false
 	subtitle404 = ""
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
+	iconFont = "mono-social"
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
+  socialIconStyle = "circle"
 
 
 # Add additional social link entries underneath
