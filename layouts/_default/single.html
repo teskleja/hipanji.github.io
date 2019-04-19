@@ -1,22 +1,55 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
+    <body>
+       {{ partial "nav.html" . }}
 
-{{ partial "post.html" . }}
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        {{ .Title }}
+                    </h1>
+                    <h2 class="headline">
+                    {{ .Date.Format "Jan 2, 2006 15:04" }}
+                    · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
+                    · {{ .ReadingTime }} minute read
+                      <span class="tags">
+                      {{ with .Params.tags }}
+                      {{ if ge (len .) 1 }}
+                          {{ range . }}
+                              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+                          {{ end }}
+                      {{ end }}
+                      {{ end}}
+                      </span>
+                    </h2>
+                </header>
+                {{ if .Site.Params.enableToc }}
+                  {{ if .TableOfContents }}
+                    <div id="toc">
+                      {{ .TableOfContents }}
+                    </div>
+                  {{ end }}
+                {{ end }}
+                <section id="post-body">
+                    {{ .Content }}
+                </section>
+            </article>
 
-<div class="post-comment">
-  {{ template "_internal/disqus.html" . }}
-</div>
+            {{ if .Site.Params.enableShare }}
+                {{ partial "share.html" . }}
+            {{ end }}
 
-<div class="paging post-paging">
-  {{ if .Prev }}
-  <a class="left" href="{{ .Prev.Permalink }}" rel="prev">
-    <i class="fa fa-caret-left" aria-hidden="true"></i> <span>{{ .Prev.Title }}</span>
-  </a>
-  {{ end }}
-  {{ if .Next }}
-  <a class="right" href="{{ .Next.Permalink }}" rel="next">
-    <span>{{ .Next.Title }}</span> <i class="fa fa-caret-right" aria-hidden="true"></i>
-  </a>
-  {{ end }}
-</div>
+            {{ if .Site.Params.enableDisqus }}
+                {{ partial "disqus.html" . }}
+            {{ end }}
 
-{{ partial "footer.html" . }}
+            {{ if .Site.Params.showLatestPosts }}
+                {{ partial "latest-posts.html" . }}
+            {{ end }}
+
+            {{ partial "footer.html" . }}
+        </section>
+
+        {{ partial "js.html" . }}
+    </body>
+</html>

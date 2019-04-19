@@ -1,14 +1,17 @@
-# theme.toml template for a Hugo theme
-
-name = "Hello Programmer"
+name = "Cactus Plus"
 license = "MIT"
-licenselink = "https://github.com/lubang/hugo-hello-programmer-theme/blob/master/LICENSE.md"
-description = "Hugo Blog theme for a programmer"
-homepage = "https://github.com/lubang/hugo-hello-programmer-theme/"
-tags = ["blog", "hugo", "lulab", "donggeun", "bang"]
-features = ["blog", "simple", "programmer"]
-min_version = 0.15
+licenselink = "https://github.com/nodejh/hugo-theme-cactus-plus/blob/master/LICENSE.md"
+description = "A minimalistic and responsive theme for bloggers."
+homepage = "https://github.com/nodejh/hugo-theme-cactus-plus"
+tags = ["blog", "beautiful", "disqus", "rss", "syntax highlighting", "tags"]
+features = ["blog", "beautiful", "disqus", "rss", "syntax highlighting", "tags"]
+min_version = 0.20
 
 [author]
-  name = "DONGGEUN, BANG"
-  homepage = "http://blog.lulab.net"
+  name = "nodejh"
+  homepage = "https://github.com/nodejh"
+
+[[original]]
+  name = "Cactus"
+  homepage = "https://themes.gohugo.io/cactus/"
+  repo = "https://github.com/digitalcraftsman/hugo-cactus-theme"
