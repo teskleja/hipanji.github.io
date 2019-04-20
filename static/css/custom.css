@@ -1,0 +1,11 @@
+.welcome-description{
+  font-family: Georgia, serif;
+  color: #aaa;
+  margin-bottom: -20px;
+}
+
+.section-title{
+  margin-top: 1.5em;
+  font: bold 28px/1.3em Georgia, serif;
+  color: #000;
+}

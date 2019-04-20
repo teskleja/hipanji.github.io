@@ -35,7 +35,7 @@ hasCJKLanguage = false
 	twitterCardImage = ""
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = []
+	customCSS = ['/css/custom.css']
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
@@ -44,7 +44,9 @@ hasCJKLanguage = false
 	# Navigation links
 	home = ""
 	about = ""
-	archive = ""
+	now = ""
+	blogs = ""
+	tags = ""
 	subscribe = ""
 
 	olderPosts = ""
@@ -56,7 +58,7 @@ hasCJKLanguage = false
 	readMore = ""
 
 	# Share
-	enableShare = true
+	enableShare = false
 	tweet = ""
 	share = ""
 
@@ -68,7 +70,6 @@ hasCJKLanguage = false
 	iconFont = "font-awesome"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "rounded"
-
 
 # Add additional social link entries underneath
 [social]

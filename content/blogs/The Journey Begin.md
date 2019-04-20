@@ -5,9 +5,6 @@ date = "2019-04-19"
 tags = [
     "Life",
 ]
-categories = [
-    "Life",
-]
 menu = "main"
 +++
 
