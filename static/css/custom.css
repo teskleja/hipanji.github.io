@@ -1,15 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Noto+Sans);
+
 @import url(//fonts.googleapis.com/css?family=Dancing+Script);
 
 body {
-    font: 16px/1 'Noto Sans',
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    "Lucida Sans",
-    Georgia,
-    "Times New Roman",
-    Times,
-    sans-serif;
+    font: 16px/1 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Georgia, "Times New Roman", Times, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -20,14 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Sans',
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    "Lucida Sans",
-    Arial,
-    serif;
+    font-family: 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
-h1{
+
+h1 {
     font-size: 36px;
 }
 
@@ -56,11 +46,16 @@ p {
     letter-spacing: -.004em;
 }
 
-.post h1,h2,h3,h4,h5,h6{
+.post h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
 }
 
-#home h1{
+#home h1 {
     font-size: 36px;
     font-weight: 500;
     line-height: 1.8em;
@@ -73,53 +68,28 @@ p {
 }
 
 .post header h1 {
-    font: 500 32px/1.8em 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
-        margin-bottom: 20px;
-        letter-spacing: -1px;
+    font: 500 32px/1.8em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
 }
 
 .post h1 {
-    font: bold 24px/1.5em 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
+    font: bold 24px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
 .post h2 {
-    font: bold 20px/1.5em 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
+    font: bold 20px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 .post h3 {
-    font: normal 18px/1.5em 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
+    font: normal 18px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     margin-top: 50px;
 }
 
 .post h4 {
-    font: normal 16px/1.5em 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
+    font: normal 16px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     margin-top: 50px;
 }
 
@@ -131,86 +101,41 @@ p {
 }
 
 .profile h2 {
-    font-family: 'Dancing Script',
-    Georgia,
-    Times,
-    serif;
+    font-family: 'Dancing Script', Georgia, Times, serif;
     font-size: 24px;
     font-weight: 500;
-}
-
-.thin {
-    font-weight: 100
-}
-
-.light {
-    font-weight: 300
-}
-
-.regular {
-    font-weight: 400
-}
-
-.medium {
-    font-weight: 500
-}
-
-.bold {
-    font-weight: 700
-}
-
-.bolder {
-    font-weight: 900
 }
 
 #post-list a {
     color: #333;
     display: block;
-    font: bolder 19px/1.7 'Noto Sans',
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    "Lucida Sans",
-    Arial,
-    serif;
+    font: bolder 19px/1.7 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 #post-list h2 {
-    font: normal 16px/1.5em 'Noto Sans',
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    "Lucida Sans",
-    Arial,
-    serif;
+    font: normal 16px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 #post-body p {
     --x-height-multiplier: 0.375;
     --baseline-multiplier: 0.17;
-    font-family: 'Noto Sans',
-        "Lucida Grande",
-        "Lucida Sans Unicode",
-        "Lucida Sans",
-        Arial,
-        serif;
+    font-family: 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     letter-spacing: -.004em;
 }
 
-.welcome-description{
-    font-family: Georgia,
-    serif;
+.welcome-description {
+    font-family: Georgia, serif;
     color: #595959;
     margin-bottom: -20px;
-
 }
 
-#page-title{
-    padding-left: 20px ;
-    padding-right: 20px ;
-    padding-top: 20px ;
+#page-title {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     padding-bottom: 0px;
     max-width: 600px;
     margin: 0 auto;
-
 }
 
 #page-title hr {
@@ -222,7 +147,11 @@ p {
     margin-top: 40px;
 }
 
-#page-content h2,h3,h4,h5,h6 {
+#page-content h2,
+h3,
+h4,
+h5,
+h6 {
     font-style: normal;
     color: #333;
     line-height: 1.5em;
@@ -252,11 +181,10 @@ p {
 }
 
 #wrapper.home {
-        padding: 0px 40px 9px 40px;
+    padding: 0px 40px 9px 40px;
 }
 
-
-#footer{
+#footer {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 40px;
@@ -268,6 +196,7 @@ p {
 }
 
 /* toq */
+
 #toc {
     font-size: 0.8em;
 }
@@ -278,27 +207,28 @@ p {
 }
 
 /* nav */
+
 nav.main-nav {
     font-weight: bolder;
     letter-spacing: 0.01em;
     text-transform: uppercase;
 }
 
-nav.main-nav a{
+nav.main-nav a {
     padding: 8px 4px;
 }
 
-nav.main-nav a.cta{
+nav.main-nav a.cta {
     padding: 8px 8px;
 }
 
 /* disqus */
+
 #disqus-container {
     font-size: 0.85rem;
     /* padding: 1.5rem; */
     padding-top: 2em;
     text-align: center;
-    
 }
 
 #disqus-button {
@@ -315,8 +245,6 @@ nav.main-nav a.cta{
     display: none;
 }
 
-#disqus_thread,
-#ds-thread {
+#disqus_thread {
     margin-top: 0px;
 }
-

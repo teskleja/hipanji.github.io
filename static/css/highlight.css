@@ -1,0 +1,39 @@
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+
+/* Tomorrow Red */
+
+.hljs-name {
+    color: #c82829;
+}
+
+/* Tomorrow Orange */
+
+.hljs-number,
+.hljs-type,
+.hljs-meta,
+.hljs-link {
+    color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+
+/* Tomorrow Green */
+
+.hljs-symbol {
+    color: #718c00;
+}
+
+/* Tomorrow Blue */
+
+.hljs-title,
+.hljs-section {
+    color: #4271ae;
+}
+
+/* Tomorrow Purple */
+
+.hljs-strong {
+    font-weight: bold;
+}
