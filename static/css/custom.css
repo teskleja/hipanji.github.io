@@ -65,13 +65,13 @@ h6 {
     font-weight: bold;
 }
 
-#home h1 {
+.home h1 {
     font-size: 36px;
     font-weight: 500;
     line-height: 1.8em;
 }
 
-#home h2 {
+.home h2 {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5em;
