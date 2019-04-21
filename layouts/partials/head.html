@@ -23,12 +23,13 @@
 
 		{{ if .Site.Params.enableRSS }}
 		<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-		{{ end }}
-
+        {{ end }}
+    
 		{{ range .Site.Params.customCSS }}
-		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-    {{ end }}
+        <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+        {{ end }}
 
-    <!-- netlify identity widget -->
-    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+        <!-- netlify identity widget -->
+        <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>

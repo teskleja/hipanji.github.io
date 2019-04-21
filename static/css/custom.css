@@ -1,11 +1,226 @@
-.welcome-description{
-  font-family: Georgia, serif;
-  color: #aaa;
-  margin-bottom: -20px;
+@import url(//fonts.googleapis.com/css?family=Noto+Sans);
+@import url(//fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+    font: 16px/1 'Noto Sans',
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    Georgia,
+    "Times New Roman",
+    Times,
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
-.section-title{
-  margin-top: 1.5em;
-  font: bold 28px/1.3em Georgia, serif;
-  color: #000;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans',
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    Arial,
+    serif;
 }
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: -.004em;
+}
+
+.home h1{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.home h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.post h1 {
+    font: 500 32px/1.8em 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+}
+
+.post h2 {
+    font: bold 24px/1.5em 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+    margin-top: 50px;
+}
+
+.profile h1 {
+    letter-spacing: 0px;
+    font-size: 21px;
+    color: #222;
+    font-weight: bold;
+}
+
+.profile h2 {
+    font-family: 'Dancing Script',
+    Georgia,
+    Times,
+    serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.thin {
+    font-weight: 100
+}
+
+.light {
+    font-weight: 300
+}
+
+.regular {
+    font-weight: 400
+}
+
+.medium {
+    font-weight: 500
+}
+
+.bold {
+    font-weight: 700
+}
+
+.bolder {
+    font-weight: 900
+}
+
+#post-list a {
+    color: #333;
+    display: block;
+    font: bolder 19px/1.7 'Noto Sans',
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    Arial,
+    serif;
+}
+
+#post-list h2 {
+    font: normal 16px/1.5em 'Noto Sans',
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    Arial,
+    serif;
+}
+
+#post-body p {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+    letter-spacing: -.004em;
+}
+
+.welcome-description{
+    font-family: Georgia,
+    serif;
+    color: #aaa;
+    margin-bottom: -20px;
+
+}
+
+#page-title{
+    padding-left: 20px ;
+    padding-right: 20px ;
+    padding-top: 20px ;
+    padding-bottom: 0px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+#page-title hr {
+    margin: 20px auto;
+}
+
+#page-title h1 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+#page-content h2,h3,h4,h5,h6 {
+    font-style: normal;
+    color: #333;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#page-content p {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    letter-spacing: -.004em;
+}
+
+#page-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#page-wrap {
+    flex: 1;
+}
+
+
+#footer{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0px 40px;
+}
+
+#post-list li {
+    margin-left: 0px;
+}
+
+
