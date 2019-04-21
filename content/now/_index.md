@@ -3,11 +3,7 @@ title: Now
 description: Dscribe what i'm doing right now.
 date: '2019-04-20T14:02:37+02:00'
 ---
-> For people that always asked me "What the f are you focus on right now?", or simple "What are you doing right now?", this page give them almost everything about that question. Inspired by 
->
-> [Derek Sivers](https://sivers.org/now)
->
-> .
+For people that always asked me "What the f are you focus on right now?", or simple "What are you doing right now?", this page give them almost everything about that question. Inspired by [Derek Sivers](https://sivers.org/now).
 
 ## Work
 
