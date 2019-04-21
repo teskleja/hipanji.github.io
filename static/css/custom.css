@@ -2,10 +2,7 @@
     font-family: 'Noto Sans';
     font-display: auto;
     src: local('Noto Sans'),
-    url('../fonts/Noto_Sans/NotoSans-Regular.woff2') format('woff2'),
-    url('../fonts/Noto_Sans/NotoSans-Regular.woff') format('woff'),
     url('../fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype'),
-    url('../fonts/Noto_Sans/NotoSans-Regular.eot') format('embedded-opentype'),
     url(//fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
 }
 
@@ -13,10 +10,7 @@
     font-family: 'Dancing Script';
     font-display: auto;
     src: local('Dancing Script'),
-    url('../fonts/Dancing_Script/DancingScript-Regular.woff2') format('woff2'),
-    url('../fonts/Dancing_Script/DancingScript-Regular.woff') format('woff'),
     url('../fonts/Dancing_Script/DancingScript-Regular.ttf') format('truetype'),
-    url('../fonts/Dancing_Script/DancingScript-Regular.eot') format('embedded-opentype'),
     url(//fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
 }
 
