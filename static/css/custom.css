@@ -1,6 +1,16 @@
-@import url(//fonts.googleapis.com/css?family=Noto+Sans);
+@font-face {
+    font-family: 'Noto Sans';
+    font-display: auto;
+    src: local('Noto Sans'),
+    url(//fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+}
 
-@import url(//fonts.googleapis.com/css?family=Dancing+Script);
+@font-face {
+    font-family: 'Dancing Script';
+    font-display: auto;
+    src: local('Dancing Script'),
+    url(//fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+}
 
 body {
     font: 16px/1 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Georgia, "Times New Roman", Times, sans-serif;
