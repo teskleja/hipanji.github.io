@@ -211,6 +211,10 @@ p {
     flex: 1;
 }
 
+#wrapper {
+    padding-bottom: 60px;
+}
+
 
 #footer{
     max-width: 600px;
@@ -223,4 +227,32 @@ p {
     margin-left: 0px;
 }
 
+
+/* disqus */
+#disqus-container {
+    font-size: 0.85rem;
+    /* padding: 1.5rem; */
+    padding-top: 2em;
+    text-align: center;
+    
+}
+
+#disqus-button {
+    margin: 0 auto;
+    background: #5badf0;
+    color: #fff;
+    padding: 8px 8px;
+    font-size: 13px;
+    line-height: 1.35;
+    border-radius: 3px;
+}
+
+#disqus-comments {
+    display: none;
+}
+
+#disqus_thread,
+#ds-thread {
+    margin-top: 0px;
+}
 

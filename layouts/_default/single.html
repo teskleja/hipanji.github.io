@@ -50,11 +50,11 @@
                     </section>
                 </section>
             {{ partial "footer.html" . }}
-            <script src="{{ .Site.BaseURL }}js/highlight.min.js"></script>
-            <script>
-                hljs.initHighlightingOnLoad();
-            </script>
             </div>
         {{ partial "js.html" . }}
+        <script src="{{ .Site.BaseURL }}js/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
     </body>
 </html>
