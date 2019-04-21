@@ -56,20 +56,46 @@ p {
     letter-spacing: -.004em;
 }
 
-.home h1{
+.post h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+#home h1{
     font-size: 36px;
     font-weight: 500;
     line-height: 1.8em;
 }
 
-.home h2 {
+#home h2 {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5em;
 }
 
-.post h1 {
+.post header h1 {
     font: 500 32px/1.8em 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+        margin-bottom: 20px;
+        letter-spacing: -1px;
+}
+
+.post h1 {
+    font: bold 24px/1.5em 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.post h2 {
+    font: bold 20px/1.5em 'Noto Sans',
         "Lucida Grande",
         "Lucida Sans Unicode",
         "Lucida Sans",
@@ -77,8 +103,18 @@ p {
         serif;
 }
 
-.post h2 {
-    font: bold 24px/1.5em 'Noto Sans',
+.post h3 {
+    font: normal 18px/1.5em 'Noto Sans',
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Lucida Sans",
+        Arial,
+        serif;
+    margin-top: 50px;
+}
+
+.post h4 {
+    font: normal 16px/1.5em 'Noto Sans',
         "Lucida Grande",
         "Lucida Sans Unicode",
         "Lucida Sans",
@@ -162,7 +198,7 @@ p {
 .welcome-description{
     font-family: Georgia,
     serif;
-    color: #aaa;
+    color: #595959;
     margin-bottom: -20px;
 
 }
@@ -215,6 +251,10 @@ p {
     padding-bottom: 60px;
 }
 
+#wrapper.home {
+        padding: 0px 40px 9px 40px;
+}
+
 
 #footer{
     max-width: 600px;
@@ -227,6 +267,30 @@ p {
     margin-left: 0px;
 }
 
+/* toq */
+#toc {
+    font-size: 0.8em;
+}
+
+#TableOfContents ul li {
+    list-style-type: none;
+    line-height: 2.2em;
+}
+
+/* nav */
+nav.main-nav {
+    font-weight: bolder;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+nav.main-nav a{
+    padding: 8px 4px;
+}
+
+nav.main-nav a.cta{
+    padding: 8px 8px;
+}
 
 /* disqus */
 #disqus-container {
@@ -239,7 +303,7 @@ p {
 
 #disqus-button {
     margin: 0 auto;
-    background: #5badf0;
+    background: #333;
     color: #fff;
     padding: 8px 8px;
     font-size: 13px;

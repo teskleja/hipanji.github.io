@@ -2,7 +2,7 @@
 {{ if eq .Site.Params.iconFont "font-awesome" }}
 	
 	{{ range $key, $val := .Site.Social }}
-    <a class="symbol" href="{{ $val }}">
+    <a class="symbol" href="{{ $val }}" aria-label="{{ $key }}" alt="view {{ $key }} profile">
         <i class="fa fa-{{ $key }}"></i>
     </a>
     {{ end }}

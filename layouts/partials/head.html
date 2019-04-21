@@ -12,8 +12,8 @@
 		{{ .Hugo.Generator }}
 		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.min.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.min.css">
 
 		{{ if eq .Site.Params.iconFont "font-awesome" }}
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
