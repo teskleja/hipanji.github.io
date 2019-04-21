@@ -10,7 +10,18 @@
 		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 		{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 		{{ .Hugo.Generator }}
-		<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+        <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+        
+        <!-- performances -->
+        <link href=’https://fonts.googleapis.com’ rel=’preconnect’ crossorigin>
+        <link href=’https://fonts.gstatic.com’ rel=’preconnect’ crossorigin>
+        <link href=’https://www.google-analytics.com’ rel=’preconnect’ crossorigin>
+        <link href=’https://fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2’ rel=’prefetch’>
+        <link href=’https://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2’
+            rel=’prefetch’>
+        <link href=’https://www.arhen.dev/fonts/fontawesome-webfont.woff2?v=4.7.0’ rel=’prefetch’>
+
+        <!-- static -->
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
@@ -28,8 +39,6 @@
 		{{ range .Site.Params.customCSS }}
         <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
         {{ end }}
-
-        <link href=’https://www.google-analytics.com’ rel=’preconnect’ crossorigin>
 
         <!-- netlify identity widget -->
         <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
