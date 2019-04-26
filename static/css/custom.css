@@ -16,7 +16,7 @@
     font-family: "FontAwesome";
     font-display: swap;
     src: local('FontAwesome'),
-        url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format("woff2") url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format("woff2")
+        url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2")
 }
 
 body {
