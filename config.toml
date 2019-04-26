@@ -32,7 +32,7 @@ hasCJKLanguage = false
 
 	enableTwitterCard = true
 	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
+	twitterCardImage = "images/avatar.jpg"
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ['css/custom.css']
@@ -58,7 +58,7 @@ hasCJKLanguage = false
 	readMore = ""
 
 	# Share
-	enableShare = false
+	enableShare = true
 	tweet = ""
 	share = ""
 
