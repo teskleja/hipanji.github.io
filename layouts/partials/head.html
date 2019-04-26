@@ -27,14 +27,33 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
 		rel="preload" as="font" crossorigin="crossorigin">
 
+	<!-- Deferred loading non-critical CSS -->
+	<link rel="preload" href="{{ .Site.BaseURL }}css/style.css" as="style"
+		onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"></noscript>
+
+
 	<!-- static -->
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
+	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"> -->
+	<link rel="preload" href="{{ .Site.BaseURL }}css/highlight.css" as="style"
+		onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css"></noscript>
+	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css"> -->
 
 	{{ if eq .Site.Params.iconFont "font-awesome" }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
+	<link rel="preload" href="{{ .Site.BaseURL }}css/font-awesome.min.css" as="style"
+		onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css"></noscript>
+	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css"> -->
 	{{ else }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css">
+	<link rel="preload" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css" as="style"
+		onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css"></noscript>
+	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css"> -->
 	{{ end }}
 
 	{{ if .Site.Params.enableRSS }}
@@ -42,7 +61,10 @@
 	{{ end }}
 
 	{{ range .Site.Params.customCSS }}
-	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+	<link rel="preload" href="{{ $.Site.BaseURL }}{{ . }}" as="style" onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}"></noscript>
+	<!-- <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}"> -->
 	{{ end }}
 
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
