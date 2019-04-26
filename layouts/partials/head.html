@@ -27,15 +27,15 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
 		rel="preload" as="font" crossorigin="crossorigin">
 
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	<!-- Deferred loading non-critical CSS -->
-	<link rel="preload" href="{{ .Site.BaseURL }}css/style.css" as="style"
+	<!-- <link rel="preload" href="{{ .Site.BaseURL }}css/style.css" as="style"
 		onload="this.onload=null; this.rel='stylesheet'">
 	<noscript>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"></noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"></noscript> -->
 
 
 	<!-- static -->
-	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"> -->
 	<link rel="preload" href="{{ .Site.BaseURL }}css/highlight.css" as="style"
 		onload="this.onload=null; this.rel='stylesheet'">
 	<noscript>
