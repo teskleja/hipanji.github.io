@@ -3,17 +3,17 @@ title: Why I'm using Static Site Generator?
 description: >-
   People always ask to me why using SSG instead of using wordpress/medium,etc
   (Indonesia)
-date: 2019-04-26T08:07:53.648Z
+date: 2019-04-26T09:38:53.648Z
 tags:
   - ssg
 ---
-Sejak ada keinginan untuk membuat website sendiri, saya sudah merancang dari jauh-jauh hari bahwasanya website pribadi yang nanti akan saya buat akan sepenuhnya blog yang berisi tulisan tulisan yang mungkin tidak bisa saya sampaikan atau cerita di dunia nyata. 
+* Sejak ada keinginan untuk membuat website sendiri, saya sudah merancang dari jauh-jauh hari bahwasanya website pribadi yang nanti akan saya buat akan sepenuhnya blog yang berisi tulisan tulisan yang mungkin tidak bisa saya sampaikan atau cerita di dunia nyata. 
 
-# 1. Using Wordpress is a good idea
+## 1. Using Wordpress is a good idea
 
 Awalnya saya berencana untuk memakai Wordpress sebagai _Tech-Stack_ dibalik website yang akan saya buat. Hal ini lantaran wordpress yang bersifat open source dan sudah populer karena keramahannya dalam interaksi antar muka. Saya semakin yakin ketika beberapa hari yang lalu membaca artikel mengenai [Why Use Wordpress](https://kinsta.com/blog/why-use-wordpress/). 
 
-## 1.1. Good stuff
+### 1.1. Good stuff
 
 Wordpress mempunyai keunggulan yang sangat banyak dalam hal manajemen website. Tak terpungkiri bahwa Wordpress merupakan CMS yang paling populer saat ini.
 
@@ -21,7 +21,7 @@ Wordpress mempunyai keunggulan yang sangat banyak dalam hal manajemen website. T
 
 Proses instalasi wordpress yang mudah dan support penuh terhadap SEO membuat CMS ini menjadi pilihan utama hampir setiap orang yang ingin memiliki website/blog pribadi.
 
-## 1.2. Why I'm not using it
+### 1.2. Why I'm not using it
 
 Terlepas dari kelebihan dan kepopuleran Wordpress, ada beberapa pertimbangan kenapa saya akhirnya tidak melabuhkan pilihan saya pada CMS ini:
 
@@ -29,13 +29,13 @@ Terlepas dari kelebihan dan kepopuleran Wordpress, ada beberapa pertimbangan ken
 * **Kompleksitas:** Saya tidak berbicara mengenai instalasi atau cara penggunaan. Tapi kompleksitas dari wordpress itu sendiri. Sehingga membutuhkan pengetahuan khusus jika ingin mengubah core dari wordpress.
 * **Keamanan:** Saya rasa, dari semua poin diatas, kebanyakan orang akan setuju dengan poin satu ini. Karena kepopulerannya, wordpress merupakan CMS yang paling sering diincar dan ditemukan celah keamanannya. Dan poin ini yang membuat saya benar-benar tidak memakainya.
 
-# 2. Why not using Medium?
+## 2. Why not using Medium?
 
 Untuk teman-teman yang belum tahu medium, silahkan kunjungi situs [medium](https://medium.com) untuk mencobanya.
 Medium saat ini cukup terkenal sebagai wadah untuk menulis di dunia maya. Platform medium menyediakan banyak kelebihan yang tidak ditemukan di platform sejenis yang lain. 
 
 Tapi, satu hal yang membuat saya tidak memakai medium adalah karena prinsip. Saya tidak suka tulisan saya  berada diplatform pihak ketiga yang sewaktu-waktu bisa berubah kebijakannya atau tiba-tiba hilang?. Kontrol terhadap apa yang saya tulisa disana suatu saat bisa terancam dan dieksploitasi. Selagi saya bisa buat sendiri, yah kenapa tidak. 
 
-# 3. Why using SSH?
+## 3. Why using SSG?
 
 Static Site Generator (SSG) saat ini sedang populer. Selain karena kemudahannya, SSG memberikan kecepatan maksimum untuk website yang akan kita buat. Website yang ditampilkan akan di _generate_ seluruhnya sebagai html tanpa embel-embel bahasa pemrograman. Untuk _section_ ini akan saya jelaskan diartikel selanjutnya, sekaligus kenapa saya memilih [Hugo](https://gohugo.io) ketimbang jenis SSG yang lain.
