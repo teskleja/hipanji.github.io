@@ -1,17 +1,19 @@
----
-title: Why I'm using Static Site Generator?
-description: >-
-  People always ask to me why using SSG instead of using wordpress/medium,etc
-  (Indonesia)
-date: 2019-04-26T09:38:53.648Z
-tags:
-  - ssg
----
-* Sejak ada keinginan untuk membuat website sendiri, saya sudah merancang dari jauh-jauh hari bahwasanya website pribadi yang nanti akan saya buat akan sepenuhnya blog yang berisi tulisan tulisan yang mungkin tidak bisa saya sampaikan atau cerita di dunia nyata. 
++++
+title = "Why I'm using Static Site Generator?"
+description = "People always ask to me why using SSG instead of using wordpress/medium,etc (Indonesia)"
+date= "2019-04-26T09:38:53.648Z"
+tags = [
+    "SSG",
+    "Wordpress",
+    "Website",
+]
++++
+
+Sejak ada keinginan untuk membuat website sendiri, saya sudah merancang dari jauh-jauh hari bahwasanya website pribadi yang nanti akan saya buat akan sepenuhnya blog yang berisi tulisan tulisan yang mungkin tidak bisa saya sampaikan atau cerita di dunia nyata.
 
 ## 1. Using Wordpress is a good idea
 
-Awalnya saya berencana untuk memakai Wordpress sebagai _Tech-Stack_ dibalik website yang akan saya buat. Hal ini lantaran wordpress yang bersifat open source dan sudah populer karena keramahannya dalam interaksi antar muka. Saya semakin yakin ketika beberapa hari yang lalu membaca artikel mengenai [Why Use Wordpress](https://kinsta.com/blog/why-use-wordpress/). 
+Awalnya saya berencana untuk memakai Wordpress sebagai _Tech-Stack_ dibalik website yang akan saya buat. Hal ini lantaran wordpress yang bersifat open source dan sudah populer karena keramahannya dalam interaksi antar muka. Saya semakin yakin ketika beberapa hari yang lalu membaca artikel mengenai [Why Use Wordpress](https://kinsta.com/blog/why-use-wordpress/).
 
 ### 1.1. Good stuff
 
@@ -32,9 +34,9 @@ Terlepas dari kelebihan dan kepopuleran Wordpress, ada beberapa pertimbangan ken
 ## 2. Why not using Medium?
 
 Untuk teman-teman yang belum tahu medium, silahkan kunjungi situs [medium](https://medium.com) untuk mencobanya.
-Medium saat ini cukup terkenal sebagai wadah untuk menulis di dunia maya. Platform medium menyediakan banyak kelebihan yang tidak ditemukan di platform sejenis yang lain. 
+Medium saat ini cukup terkenal sebagai wadah untuk menulis di dunia maya. Platform medium menyediakan banyak kelebihan yang tidak ditemukan di platform sejenis yang lain.
 
-Tapi, satu hal yang membuat saya tidak memakai medium adalah karena prinsip. Saya tidak suka tulisan saya  berada diplatform pihak ketiga yang sewaktu-waktu bisa berubah kebijakannya atau tiba-tiba hilang?. Kontrol terhadap apa yang saya tulisa disana suatu saat bisa terancam dan dieksploitasi. Selagi saya bisa buat sendiri, yah kenapa tidak. 
+Tapi, satu hal yang membuat saya tidak memakai medium adalah karena prinsip. Saya tidak suka tulisan saya  berada diplatform pihak ketiga yang sewaktu-waktu bisa berubah kebijakannya atau tiba-tiba hilang?. Kontrol terhadap apa yang saya tulisa disana suatu saat bisa terancam dan dieksploitasi. Selagi saya bisa buat sendiri, yah kenapa tidak.
 
 ## 3. Why using SSG?
 

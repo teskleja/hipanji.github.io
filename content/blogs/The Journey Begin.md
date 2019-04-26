@@ -5,7 +5,6 @@ date = "2019-04-19"
 tags = [
     "Life",
 ]
-menu = "main"
 +++
 
 # My first step
