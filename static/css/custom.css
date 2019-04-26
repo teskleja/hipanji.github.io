@@ -223,6 +223,33 @@ h6 {
     line-height: 2.2em;
 }
 
+#TableOfContents ul li ul li {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+
+ul>li {
+    margin-bottom: 5px;
+}
+
+#post-body img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px 0px;
+}
+
+#post-body a,
+#page-content a {
+    text-decoration: underline;
+}
+
+#post-body a:hover,
+#page-content a:hover {
+    text-decoration: none;
+}
+
 /* nav */
 
 nav.main-nav {

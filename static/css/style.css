@@ -376,7 +376,7 @@ i {
 .post h2.headline {
     font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 0 0;
-    color: #b2b9be;
+    color: #595959;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -481,8 +481,8 @@ Post List
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #2E2E2E;
+    font: 300 15px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
+    color: #595959;
 }
 
 #post-list-footer {
