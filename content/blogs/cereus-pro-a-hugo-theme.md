@@ -19,7 +19,7 @@ There is so much things that I've changed then decided to create new theme. This
 # Behind the name "Cereus"
 Because the original themes is [cactus](https://github.com/digitalcraftsman/hugo-cactus-theme), So I took one name that have same family with cactus. The genus Cereus was one of the first cactus genera to be described; the circumscription varies depending on the authority.
 
-## Contributing
+# Contributing
 Found a bug or got an idea for a new feature? Feel free to use the [issue tracker](//github.com/arhen/hugo-cereus-pro-theme/issues) to let me know. Or directly make a [pull request](//github.com/arhen/hugo-cereus-pro-theme/pulls).
 
 Please create a separate branch for your pull request.
