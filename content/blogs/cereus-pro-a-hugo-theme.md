@@ -1,5 +1,5 @@
 +++
-title = "I've created new hugo theme called Cereus-Pro!"
+title = "New hugo themes, Cereus-Pro!"
 description = "Blazing Fast & Minimalist Blog themes"
 date = 2019-04-28T22:01:23+08:00
 tags = ["Hugo", "SSG", "Project"]
