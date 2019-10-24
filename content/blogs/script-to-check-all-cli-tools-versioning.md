@@ -16,12 +16,24 @@ The concept of this script is just to check a command version of CLI-tool that w
 First, we need a function to do that. We called it **_Test-Method._**
 
 ```
-Function Test-Command {    Param ($command)    $oldPreference = $ErrorActionPreference    $ErrorActionPreference = "stop"        try {        if( Get-Command $command ){ RETURN $true}     }Catch {        Write-Host "packages does not exist on this machine"; RETURN $false    }Finally {        $ErrorActionPreference=$oldPreference    }}
+Function Test-Command {
+    Param ($command)
+    $oldPreference = $ErrorActionPreference
+    $ErrorActionPreference = "stop"    
+    
+    try {        
+        if( Get-Command $command ){ RETURN $true }     
+    }Catch {        
+        Write-Host "packages does not exist on this machine"; 
+        RETURN $false    
+    }Finally {        
+        $ErrorActionPreference = $oldPreference    
+    }
+}
 ```
 
 Then, For check every single CLi-tool that available on our machine, we need to define it's _Command_
 
-__\
 `Write-Host 'Go       : '  -ForegroundColor yellow; if(Test-Command go version){go version}`
 
 Script above, will call our _Method_ with _Params_ as our _Command_. Then, just add another CLI-tool that we want to check or available right now.
