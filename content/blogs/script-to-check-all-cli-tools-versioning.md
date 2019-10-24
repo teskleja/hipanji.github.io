@@ -13,52 +13,22 @@ So I try to make a simple script to check them all once. I'm using Powershell sc
 
 The concept of this script is just to check a command version of CLI-tool that we've defined in the script. If there are no CLI command run/success, then it will return message like "Packages does not exists".
 
-First, we need a function to do that. We called it _**Test-Method.**_
+First, we need a function to do that. We called it **_Test-Method._**
 
 ```
-Function Test-Command {
+Function Test-Command {    Param ($command)    $oldPreference = $ErrorActionPreference    $ErrorActionPreference = "stop"        try {        if( Get-Command $command ){ RETURN $true}     }Catch {        Write-Host "packages does not exist on this machine"; RETURN $false    }Finally {        $ErrorActionPreference=$oldPreference    }}
 ```
 
-```
-     Param ($command)
-```
+Then, For check every single CLi-tool that available on our machine, we need to define it's _Command_
 
-```
-     $oldPreference = $ErrorActionPreference
-```
-
-```
-     $ErrorActionPreference = "stop"
-```
-
-```
-     try {if(Get-Command $command){RETURN $true}}
-```
-
-```
-     Catch {Write-Host "packages does not exist on this machine"; RETURN $false}
-```
-
-```
-     Finally {$ErrorActionPreference=$oldPreference}
-```
-
-```
-}
-```
-
-
-
-Then, For check every single CLi-tool that available on our machine, we need to define it's _Command_.
-
-\
+__\
 `Write-Host 'Go       : '  -ForegroundColor yellow; if(Test-Command go version){go version}`
 
 Script above, will call our _Method_ with _Params_ as our _Command_. Then, just add another CLI-tool that we want to check or available right now.
 
 This is, how it works:\
 \
-\[![cli37c31f2db06a714f.gif](https://s3.gifyu.com/images/cli37c31f2db06a714f.gif)]
+![cli37c31f2db06a714f.gif](https://s3.gifyu.com/images/cli37c31f2db06a714f.gif)
 
 I've created a repository to make another open sourcerer to add another CLI-tools line. I hope someone create a bash script version too. If you interest on this, let me know with fork this [Repository](https://github.com/arhen/all-cli-version-PS/)
 
