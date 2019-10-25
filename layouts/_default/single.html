@@ -1,5 +1,5 @@
 {{ partial "head.html" . }}
-    <body>
+    <body class="white-mode">
          <div id="page-container">
              <section id="page-wrap">
                 {{ partial "nav.html" . }}
@@ -23,7 +23,8 @@
                                 {{ end}}
                                 </span>
                                 </h2>
-                            </header>
+							</header>
+							<hr>
                             {{ if .Site.Params.enableToc }}
                             {{ if .TableOfContents }}
                                 <div id="toc">
