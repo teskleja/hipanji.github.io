@@ -85,7 +85,7 @@ h6 {
 }
 
 .post header h1 {
-    font: 500 32px/1.8em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+    font: bolder 32px/1.8em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
     margin-bottom: 20px;
     letter-spacing: -1px;
 }
@@ -113,7 +113,7 @@ h6 {
 .profile h1 {
     letter-spacing: 0px;
     font-size: 21px;
-    color: #222;
+    /* color: #222; */
     font-weight: bold;
 }
 
@@ -124,13 +124,13 @@ h6 {
 }
 
 #post-list a {
-    color: #333;
+    /* color: #333; */
     display: block;
     font: bolder 19px/1.7 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 #post-list h2 {
-    font: normal 16px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+    font: normal 15px/1.5em 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 #post-body p {
@@ -142,7 +142,7 @@ h6 {
 
 .welcome-description {
     font-family: Georgia, serif;
-    color: #595959;
+    /* color: #595959; */
     margin-bottom: -20px;
 }
 
@@ -170,7 +170,7 @@ h4,
 h5,
 h6 {
     font-style: normal;
-    color: #333;
+    /* color: #333; */
     line-height: 1.5em;
     margin-bottom: 10px;
     margin-top: 50px;
@@ -291,4 +291,34 @@ nav.main-nav a.cta {
 
 #disqus_thread {
     margin-top: 0px;
+}
+
+
+.white-mode{
+	color: #333 !important;
+	background: #fff !important;
+}
+
+.dark-mode {
+	color: #fff !important;
+	background: #333 !important;
+}
+
+
+/* Gradient transparent - color - transparent */
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#theme{
+	margin: 20px 8px -40px 8px;
+	font-size: 15pt;
+	cursor: pointer;
+}
+
+code{
+	color: #545454;
 }
