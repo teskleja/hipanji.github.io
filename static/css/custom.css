@@ -322,3 +322,19 @@ hr {
 code{
 	color: #545454;
 }
+
+.dark-mode #post-list a {
+	color: #fff;
+}
+
+.dark-mode .post a,
+#post-list a:hover,
+p a,
+nav.main-nav a {
+	color: #3187ff;
+}
+
+.dark-mode #disqus-button{
+	background: #fff;
+	color: #333;
+}
