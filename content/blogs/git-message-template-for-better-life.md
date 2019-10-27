@@ -32,11 +32,15 @@ Save this template as ``.git_msg_template.txt`` (read: whatever you want). If yo
 
 ### Linux, Mac
 
-``${HOME}/.git_msg_template.txt``
+```bash
+${HOME}/.git_msg_template.txt
+```
 
-### windows
+### Windows
 
-``%HOME%/.git_msg_template.txt``
+```powershell
+%HOME%/.git_msg_template.txt
+```
 
 ## Activating the template
 
@@ -49,7 +53,7 @@ open terminal/cmd/powershell, then type this command:
 git config --global commit.template ${HOME}/.git_msg_template.txt
 ```
 
-### WIndows (CMD)
+### Windows (CMD)
 
 ```git
 git config --global commit.template ${HOME}/.git_msg_template.txt
@@ -71,7 +75,9 @@ With this, I set up my global configuration of git to always using VSCode editor
 
 If we have been setup the template and editor, whenever we type:
 
-``git commit``
+```git
+git commit
+```
 
 it will open our template that we have been setup before.
 
