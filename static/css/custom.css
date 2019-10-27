@@ -350,3 +350,11 @@ code{
 .dark-mode #toc{
 	background-color: #29292e;
 }
+
+blockquote{
+	border-left: 2px solid #e0e0e0;
+	padding-left: 2rem;
+	line-height: 2.2rem;
+	font-weight: 400;
+	font-style: italic;
+}
