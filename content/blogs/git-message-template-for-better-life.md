@@ -49,13 +49,13 @@ open terminal/cmd/powershell, then type this command:
 
 ### Linux, Mac (Terminal)
 
-```git
+```bash
 git config --global commit.template ${HOME}/.git_msg_template.txt
 ```
 
 ### Windows (CMD)
 
-```git
+```bash
 git config --global commit.template ${HOME}/.git_msg_template.txt
 ```
 
@@ -65,7 +65,7 @@ There are people who did not their default code editor with ``git command``. We 
 
 We can do this with ``git command`` again. Open CMD/Powershell/Terminal, then type:
 
-```git
+```bash
 git config --global core.editor "code"
 ```
 
@@ -75,7 +75,7 @@ With this, I set up my global configuration of git to always using VSCode editor
 
 If we have been setup the template and editor, whenever we type:
 
-```git
+```bash
 git commit
 ```
 
