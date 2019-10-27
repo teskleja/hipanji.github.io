@@ -31,5 +31,10 @@ function retina() {
 		element.setAttribute("src", path);
 	});
 };
-
-$(document).ready(retina);
+document.addEventListener(
+	"DOMContentLoaded",
+	function() {
+		retina;
+	},
+	false
+);
