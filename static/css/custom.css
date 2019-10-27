@@ -270,7 +270,8 @@ nav.main-nav a.cta {
 
 #disqus-container {
     font-size: 0.85rem;
-    /* padding: 1.5rem; */
+	/* padding: 1.5rem; */
+	margin-top: 30px;
     padding-top: 2em;
     text-align: center;
 }
@@ -330,9 +331,9 @@ code{
 }
 
 .dark-mode .post a,
-#post-list a:hover,
-p a,
-nav.main-nav a {
+.dark-mode #post-list a:hover,
+.dark-mode p a,
+.dark-mode nav.main-nav a {
 	color: #6197e2;
 }
 
