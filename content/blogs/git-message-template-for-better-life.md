@@ -3,7 +3,7 @@ title = "Git Message Template for Better Life"
 description = "Most of commit message are saying about WHAT was done instead of WHY. This is a wrong approache."
 date = 2019-10-27T18:21:58+08:00
 tags = ["Git"]
-draft = true
+draft = false
 +++
 
 > Most of Commit message are 'useless' because people always focus on WHAT was done instead of WHY!
