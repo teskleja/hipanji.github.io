@@ -333,9 +333,10 @@ code{
 .dark-mode .post a,
 .dark-mode #post-list a:hover,
 .dark-mode p a,
-.dark-mode nav.main-nav a {
+.dark-mode nav.main-nav a:not(.cta) {
 	color: #6197e2;
 }
+
 
 .dark-mode #disqus-button{
 	background: #fff;
@@ -350,6 +351,7 @@ code{
 .dark-mode #toc{
 	background-color: #29292e;
 }
+
 
 blockquote{
 	border-left: 2px solid #e0e0e0;

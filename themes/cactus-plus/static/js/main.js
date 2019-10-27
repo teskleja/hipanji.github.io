@@ -1,5 +1,4 @@
 // To make images retina, add a class "2x" to the img element
-// and add a <image-name>@2x.png image. Assumes jquery is loaded.
 
 function isRetina() {
 	var mediaQuery = "(-webkit-min-device-pixel-ratio: 1.5),\
@@ -31,10 +30,29 @@ function retina() {
 		element.setAttribute("src", path);
 	});
 };
+
+function setDarkMode(isDark) {
+	var darkBtn = document.getElementById("darkBtn");
+	var lightBtn = document.getElementById("lightBtn");
+	if (isDark) {
+		lightBtn.style.display = "block";
+		darkBtn.style.display = "none";
+		localStorage.setItem("preferredTheme", "dark");
+	} else {
+		lightBtn.style.display = "none";
+		darkBtn.style.display = "block";
+		localStorage.removeItem("preferredTheme");
+	}
+	document.body.classList.toggle("dark-mode");
+}
+
 document.addEventListener(
 	"DOMContentLoaded",
 	function() {
-		retina;
+		retina();
+		if (localStorage.getItem("preferredTheme") == "dark") {
+			setDarkMode(true);
+		}
 	},
 	false
 );
