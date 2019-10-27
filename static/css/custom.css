@@ -297,11 +297,13 @@ nav.main-nav a.cta {
 .white-mode{
 	color: #333 !important;
 	background: #fbfbfb !important;
+	transition: all 500ms ease;
 }
 
 .dark-mode {
 	color: #fff !important;
 	background: #333 !important;
+	transition: all 500ms ease;
 }
 
 
@@ -331,7 +333,7 @@ code{
 #post-list a:hover,
 p a,
 nav.main-nav a {
-	color: #3187ff;
+	color: #6197e2;
 }
 
 .dark-mode #disqus-button{
@@ -342,4 +344,8 @@ nav.main-nav a {
 .dark-mode code{
 	color: #adadad;
 	background: #29292e;
+}
+
+.dark-mode #toc{
+	background-color: #29292e;
 }
