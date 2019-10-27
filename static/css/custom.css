@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Noto Sans';
-    font-display: swap;
     src: local('Noto Sans'),
-        url(//fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+	url(//fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Dancing Script';
-    font-display: swap;
     src: local('Dancing Script'),
-        url(//fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+	url(//fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "FontAwesome";
-    font-display: swap;
     src: local('FontAwesome'),
-        url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2")
+	url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2");
+    font-display: swap;
 }
 
 body {
