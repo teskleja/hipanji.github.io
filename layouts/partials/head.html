@@ -24,8 +24,10 @@
 		crossorigin="crossorigin">
 	<link href="https://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2" rel="preload"
 		as="font" crossorigin="crossorigin">
+	{{ if eq .Site.Params.iconFont "font-awesome" }}
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
 		rel="preload" as="font" crossorigin="crossorigin">
+	{{ end }}
 
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	<!-- Deferred loading non-critical CSS -->

@@ -67,12 +67,12 @@ hasCJKLanguage = false
 	subtitle404 = "You entered in the wrong room buddy! Go back."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
+	iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "rounded"
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://www.twitter.com/arhen_desu"
-	github-square = "https://www.github.com/arhen"
-	linkedin-square = "https://www.linkedin.com/in/rahmadslamet"
+	twitter = "https://www.twitter.com/arhen_desu"
+	github = "https://www.github.com/arhen"
+	linkedin = "https://www.linkedin.com/in/rahmadslamet"
