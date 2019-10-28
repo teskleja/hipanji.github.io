@@ -339,7 +339,8 @@ code{
 	color: #545454;
 }
 
-.dark-mode #post-list a {
+.dark-mode #post-list a,
+.dark-mode a.symbol {
 	color: #fff;
 }
 
