@@ -1,4 +1,11 @@
 <div class="welcome-description">
-  <p>Sharing is caring is a common phrase but had a big meaning that when we share something with someone else it is equal to caring him. So do I! </p>
-  <p>We live in a same world, why we can't make it better together?</p>
+  <p>Hi, I'm Arhen. <span id="age"></span> y/o Web Developer. I Love code and talk about anything with people. More
+  	about me on <a>Now</a>. My thought visible on <a>Blogs</a>. ◔_◔!</p>
 </div>
+<script>
+const getAge = birthDate => Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e+10)
+// today is 2018-06-13
+let age = getAge('1994-11-03') // 23
+let agePlaceholder = document.getElementById("age")
+agePlaceholder.append(age)
+</script>

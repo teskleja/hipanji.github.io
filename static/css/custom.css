@@ -308,6 +308,11 @@ nav.main-nav a.cta {
 }
 
 
+.profile #avatar {
+	width: 130px;
+	height: 130px;
+}
+
 .white-mode{
 	color: #333 !important;
 	background: #fbfbfb !important;
