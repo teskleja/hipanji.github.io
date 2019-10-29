@@ -43,7 +43,7 @@ Sederhanya website ini hanya menampikan 6 gambar, dan informasi seberapa lama wa
 Untuk menampilkan informasi waktu, saya membuat script JS sederhana untuk melakukan  _time tracking_ pada _event windows.onload_.
 
 ```javascript
-var timerStart = Date.now();
+cons timerStart = Date.now();
 window.onload = (event) => {
     //eksekusi waktu ketika page telah load seutuhnya
     let loadTime = (Date.now() - timerStart) / 1000;
@@ -57,11 +57,11 @@ Hasilnya seperti berikut (Waktu _rendering_ tergantung _device_ dan koneksi):
 
 Proses ini membutuhkan setidaknya **41 detik** untuk menampilkan ke-6 gambar secara utuh. Terlihat pada _network tab DevTools_ bagaimana proses _rendering_ terjadi.
 
-Dengan waktu seperti itu, sangat tidak memungkinkan untuk menerapkannya pada koneksi yang lebih rendah seperti 3G, bukan?. Bagaimana kita mengurangi waktu _onload_ ini? nah, kita gunakan teknik yang disebut **lazyloading**.
+Dengan waktu seperti itu, sangat tidak memungkinkan untuk menerapkannya pada koneksi yang lebih rendah seperti 3G, bukan? Bagaimana kita mengurangi waktu _onload_ ini? nah, kita gunakan teknik yang disebut **lazyloading**.
 
 # 2. Lazyload, Rendering image based on current visible viewport.
 
-_Lazyload_ adalah teknik yang diperuntukan saat sebuah halaman memiliki banyak _images_. Dengan _Lazyload_, browser hanya akan me-_render_ gambar yang terlihat pada layar kaca device yang kita miliki. Misalnya, contoh diatas ada 6 gambar, dan yang terlihat saat pertama kali _loading web_ adalah 3 gambar. Maka hanya 3 gambar ini yang akan di _request_ oleh _borwser_ ke _server_. 3 gambar lain akan di _request_ ketika kita melakukan _scrolling_ pada web nantinya. Silahkan baca teknik ini [lebih lanjut dari google web dev](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video).
+_Lazyload_ adalah teknik yang diperuntukan saat sebuah halaman memiliki banyak _images_. Dengan _Lazyload_, browser hanya akan me-_render_ gambar yang terlihat pada layar kaca device yang kita miliki. Misalnya, contoh diatas ada 6 gambar, dan yang terlihat saat pertama kali _loading web_ adalah 3 gambar. Maka hanya 3 gambar ini yang akan di _request_ oleh _browser_ ke _server_. 3 gambar lain akan di _request_ ketika kita melakukan _scrolling_ pada web nantinya. Silahkan baca teknik ini [lebih lanjut dari google web dev](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video).
 
 Untuk teknik ini, saya menambahkan script javascript lazyload yang populer di [_github_](https://github.com/tuupola/lazyload). Sesuai dokumentasinya, _code  HTML_ akan menyesuaikan menjadi:
 
@@ -88,7 +88,7 @@ Setelah menerapkan _lazyload_, waktu _rendering_ halaman menurun hingga **\- 25%
 
 ![site-with-lazyload](/images/uploads/site-with-lazyload.png "site-with-lazyload")
 
-Terlihat pada gambar, _browser_ hanya melakukan _request_ 3 gambar yang muncul dilayar ke _server_. Jika halaman di _scroll_, _browser_ kembali melakukan request 3 gambar sisanya. Teknik _lazyload_ ini pada dasarnya menggunakan [_Intersect Observer API_](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), sebuah teknik _modern web app_ dengan melakukan observasi pada halaman secara _asynchronous_.
+Terlihat pada gambar, _browser_ hanya melakukan _request_ 3 gambar yang muncul dilayar. Jika halaman di _scroll_, _browser_ kembali melakukan request 3 gambar sisanya. Teknik _lazyload_ ini pada dasarnya menggunakan [_Intersect Observer API_](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), sebuah teknik _modern web app_ dengan melakukan observasi pada halaman secara _asynchronous_.
 
 Pertanyaannya adalah, apakah teknik ini sudah yang paling baik? apakah ada teknik yang lain untuk mengurangi waktu _rendering page_ lebih baik lagi? Jawabannya ada, teknik itu disebut dengan **Progressive Image Loading**.
 
@@ -133,9 +133,9 @@ Untuk bagian ini, akan saya jelaskan lebih rinci pada artikel kedua. Yang perlu 
 
 Hal-hal yang perlu dicatat untuk di-_optimize_ selanjutnya:
 
-* Total _request_ masih dilakukan secara utuh (10.2 MB) oleh _browser_ meskipun gambar belum tampil pada layar. Dengan menggunakan _Intersect Observer API_, kita akan menerapkan _lazyload_ teknik kedalam teknik ini (_That's why it called Progressive Lazyload Image_).
+* Total _request_ masih dilakukan secara utuh (10.2 MB) oleh _browser_ meskipun gambar belum tampil pada layar. Dengan menggunakan _Intersect Observer API_, kita akan menerapkan _lazyload_ teknik kedalam teknik ini (_That's why it called Progressive Lazload Image_).
 
-* Setiap gambar wajib memiliki versi _thumbnail_ yang digunakan sebagai placeholder yang akan di _request_ oleh browser ke _server_. Harapannya, proses ini telah dilakukan oleh _server_ (_server side compressing_). Untuk simulasinya, kita akan menggantinya dengan _client side compressing_ menggunakan _javascript_ terlebih dahulu.  
+* Setiap gambar wajib memiliki versi _thumbnail_ yang digunakan sebagai placeholder yang akan di _request_ oleh browser ke _server_. Harapannya, proses ini telah dilakukan oleh _server_ (_server side compressing_). Untuk simulasinya, kita akan melakukannya secara _client side compressing_ menggunakan _javascript_ terlbih dahulu.  
 
 
 Source code dari semua contoh diatas, dapat diakses pada [repo github](https://github.com/arhen/image-rendering-tips). _Code_ oleh [Jose](https://jmperezperez.com/medium-image-progressive-loading-placeholder) telah saya modifikasi untuk memenuhi kebutuhan bukan hanya untuk 1 gambar saja, tapi semua gambar yang ditentukan pada halaman.
