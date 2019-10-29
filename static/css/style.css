@@ -744,7 +744,7 @@ h2.month {
     display: inline-block;
     width: 60px;
     margin: 0;
-    color: #8a8a8a;
+    /* color: #8a8a8a; */
 }
 
 @media screen and (max-width: 768px) {
@@ -757,7 +757,7 @@ h2.month {
 }
 
 .archive .post-link {
-    color: #8a8a8a;
+    color: #06599d;
 }
 
 .archive .post-item:hover {

@@ -307,6 +307,16 @@ nav.main-nav a.cta {
     margin-top: 0px;
 }
 
+.tags a{
+	font-size: 13px;
+	background: #06599d;
+	color: white;
+	padding: 2px 5px 3px;
+	margin: 2px 2px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
 
 .profile #avatar {
 	width: 130px;
@@ -352,10 +362,14 @@ code{
 .dark-mode .post a,
 .dark-mode #post-list a:hover,
 .dark-mode p a,
-.dark-mode nav.main-nav a:not(.cta) {
+.dark-mode nav.main-nav a:not(.cta),
+.dark-mode .archive .post-link {
 	color: #6197e2;
 }
 
+.dark-mode .tags a {
+	color: #ffff;
+}
 
 .dark-mode #disqus-button{
 	background: #fff;
