@@ -57,11 +57,11 @@ Hasilnya seperti berikut (Waktu _rendering_ tergantung _device_ dan koneksi):
 
 Proses ini membutuhkan setidaknya **41 detik** untuk menampilkan ke-6 gambar secara utuh. Terlihat pada _network tab DevTools_ bagaimana proses _rendering_ terjadi.
 
-Dengan waktu seperti itu, sangat tidak memungkinkan untuk menerapkannya pada koneksi yang lebih rendah seperti 3G, bukan?. Bagaimana kita mengurangi waktu _onload_ ini? nah, kita gunakan teknik yang disebut **lazyloading**.
+Dengan waktu seperti itu, sangat tidak memungkinkan untuk menerapkannya pada koneksi yang lebih rendah seperti 3G, bukan? Bagaimana kita mengurangi waktu _onload_ ini? nah, kita gunakan teknik yang disebut **lazyloading**.
 
 # 2. Lazyload, Rendering image based on current visible viewport.
 
-_Lazyload_ adalah teknik yang diperuntukan saat sebuah halaman memiliki banyak _images_. Dengan _Lazyload_, browser hanya akan me-_render_ gambar yang terlihat pada layar kaca device yang kita miliki. Misalnya, contoh diatas ada 6 gambar, dan yang terlihat saat pertama kali _loading web_ adalah 3 gambar. Maka hanya 3 gambar ini yang akan di _request_ oleh _borwser_ ke _server_. 3 gambar lain akan di _request_ ketika kita melakukan _scrolling_ pada web nantinya. Silahkan baca teknik ini [lebih lanjut dari google web dev](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video).
+_Lazyload_ adalah teknik yang diperuntukan saat sebuah halaman memiliki banyak _images_. Dengan _Lazyload_, browser hanya akan me-_render_ gambar yang terlihat pada layar kaca device yang kita miliki. Misalnya, contoh diatas ada 6 gambar, dan yang terlihat saat pertama kali _loading web_ adalah 3 gambar. Maka hanya 3 gambar ini yang akan di _request_ oleh _browser_ ke _server_. 3 gambar lain akan di _request_ ketika kita melakukan _scrolling_ pada web nantinya. Silahkan baca teknik ini [lebih lanjut dari google web dev](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video).
 
 Untuk teknik ini, saya menambahkan script javascript lazyload yang populer di [_github_](https://github.com/tuupola/lazyload). Sesuai dokumentasinya, _code  HTML_ akan menyesuaikan menjadi:
 
@@ -88,7 +88,7 @@ Setelah menerapkan _lazyload_, waktu _rendering_ halaman menurun hingga **\- 25%
 
 ![site-with-lazyload](/images/uploads/site-with-lazyload.png "site-with-lazyload")
 
-Terlihat pada gambar, _browser_ hanya melakukan _request_ 3 gambar yang muncul dilayar ke _server_. Jika halaman di _scroll_, _browser_ kembali melakukan request 3 gambar sisanya. Teknik _lazyload_ ini pada dasarnya menggunakan [_Intersect Observer API_](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), sebuah teknik _modern web app_ dengan melakukan observasi pada halaman secara _asynchronous_.
+Terlihat pada gambar, _browser_ hanya melakukan _request_ 3 gambar yang muncul dilayar. Jika halaman di _scroll_, _browser_ kembali melakukan request 3 gambar sisanya. Teknik _lazyload_ ini pada dasarnya menggunakan [_Intersect Observer API_](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), sebuah teknik _modern web app_ dengan melakukan observasi pada halaman secara _asynchronous_.
 
 Pertanyaannya adalah, apakah teknik ini sudah yang paling baik? apakah ada teknik yang lain untuk mengurangi waktu _rendering page_ lebih baik lagi? Jawabannya ada, teknik itu disebut dengan **Progressive Image Loading**.
 
