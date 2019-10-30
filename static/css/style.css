@@ -357,7 +357,7 @@ i {
 }
 
 .post header {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .post h1 {
@@ -526,8 +526,8 @@ post-list a.dark-mode {
 
 
 #wrapper.post {
-    /* max-width: 670px; */
-    max-width: 870px;
+    max-width: 780px;
+    /* max-width: 870px; */
 }
 
 .post {

@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://www.arhen.dev/"
 languageCode = "id-ID"
-title = "Arhen | Web Developer"
+title = "Hi', I am Arhen."
 
 theme = "cactus-plus"
 
