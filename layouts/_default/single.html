@@ -17,7 +17,7 @@
                                 {{ with .Params.tags }}
                                 {{ if ge (len .) 1 }}
                                     {{ range . }}
-                                        <a style="background-color: rgb({{ delimit (first 3 (shuffle (seq 0 255))) ", " }});"
+                                        <a style="background-color: rgb({{ delimit (first 3 (shuffle (seq 0 145))) ", " }});"
                                         	href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
                                     {{ end }}
                                 {{ end }}
