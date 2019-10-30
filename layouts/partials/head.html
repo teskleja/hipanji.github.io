@@ -20,14 +20,6 @@
 	<link href="https://www.google-analytics.com" rel="preconnect" crossorigin="crossorigin">
 	<link href="https://maxcdn.bootstrapcdn.com" rel="preconnect" crossorigin="crossorigin">
 
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-	{{ range .Site.Params.customCSS }}
-	<link rel="preload" href="{{ $.Site.BaseURL }}{{ . }}" as="style" onload="this.onload=null; this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}"></noscript>
-
-	{{ end }}
-
 	<!-- preload assets -->
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Sans&display=swap" rel="preload" as="font"
 		crossorigin="crossorigin">
@@ -43,6 +35,7 @@
 		rel="preload" as="font" crossorigin="crossorigin">
 	{{ end }}
 
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 
 	<!-- static -->
 	<link rel="preload" href="{{ .Site.BaseURL }}css/highlight.css" as="style"
@@ -61,6 +54,12 @@
 		onload="this.onload=null; this.rel='stylesheet'">
 	<noscript>
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css"></noscript>
+	{{ end }}
+
+	{{ range .Site.Params.customCSS }}
+	<link rel="preload" href="{{ $.Site.BaseURL }}{{ . }}" as="style" onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}"></noscript>
 
 	{{ end }}
 
