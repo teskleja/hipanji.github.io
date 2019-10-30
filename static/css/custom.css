@@ -276,7 +276,15 @@ nav.main-nav a {
 }
 
 nav.main-nav a.cta {
-    padding: 8px 8px;
+	padding: 4px 8px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 2px solid #0a0a0a;
+	border: 2px solid var(--theme-top-bar-write-color, #0a0a0a);
+	color: var(--theme-top-bar-write-color, #0a0a0a);
+	background: ##66aee2;
+	background: var(--theme-top-bar-write-background, #66aee2);
 }
 
 /* disqus */
@@ -291,12 +299,14 @@ nav.main-nav a.cta {
 
 #disqus-button {
     margin: 0 auto;
-    background: #333;
-    color: #fff;
+    /* background: #333; */
     padding: 8px 8px;
     font-size: 13px;
     line-height: 1.35;
-    border-radius: 3px;
+	border-radius: 3px;
+	border: 2px solid #0a0a0a;
+    color: #0a0a0a;
+	background: #fff;
 }
 
 #disqus-comments {
@@ -305,6 +315,10 @@ nav.main-nav a.cta {
 
 #disqus_thread {
     margin-top: 0px;
+}
+
+.post h2.headline .tags {
+	text-transform: lowercase;
 }
 
 .tags a{
@@ -374,8 +388,11 @@ code{
 }
 
 .dark-mode #disqus-button{
-	background: #fff;
-	color: #333;
+	/* background: #fff;
+	color: #333; */
+	border: 2px solid #fff;
+	color: #fff;
+	background: #333333;
 }
 
 .dark-mode code{
