@@ -136,7 +136,7 @@ body {
 }
 
 body {
-    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/1 "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -188,7 +188,7 @@ h2 {
     font-weight: 300;
     /* color: #595959; */
     margin-top: 10px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Noto Serif', "Noto Sans", Helvetica, Arial, serif;
     font-style: normal;
 }
 
@@ -364,18 +364,18 @@ i {
     margin-top: 40px;
     margin-bottom: 20px;
     /* color: #222; */
-    font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 32px/1.4em "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
 }
 
 .post h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font: 300 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 24px/1.5 "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
     /* color: #111; */
 }
 
 .post h2.headline {
-    font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
     margin: -5px 0 0 0;
     /* color: #595959; */
     font-size: 13px;
@@ -384,7 +384,7 @@ i {
 }
 
 .post h2.headline .tags {
-    font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
     /* margin: -5px 0 40px 0; */
     /* color: #b2b9be; */
     font-size: 13px;
@@ -395,7 +395,7 @@ i {
 }
 
 #post-list h2 {
-    font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 17px/1.5em "Noto Serif", "Noto Sans", Helvetica, Arial, serif;
     color: #969696;
     margin-top: 2px;
 }
@@ -475,7 +475,7 @@ Post List
 #post-list a {
     color: #333;
     display: block;
-    font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+    font: bold 19px/1.7 "Noto Serif", "Noto Sans", helvetica, Arial, serif;
 }
 
 post-list a.dark-mode {
@@ -486,7 +486,7 @@ post-list a.dark-mode {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 15px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
+    font: 300 15px/1.8 "Noto Serif", "Noto Sans", helvetica, Arial, serif;
     /* color: #595959; */
 }
 
@@ -609,7 +609,7 @@ h1.archive {
 
 h2.month {
     width: 100%;
-    font: bold 13px/1 "Helvetica Neue", helvetica, Arial, sans-serif;
+    font: bold 13px/1 "Noto Serif", "Noto Sans", helvetica, Arial, serif;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -623,7 +623,7 @@ h2.month {
 
 #archive-list a {
     display: block;
-    font: bold 17px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+    font: bold 17px/1.7 "Noto Serif", "Noto Sans", helvetica, Arial, serif;
     color: #333;
 }
 
@@ -631,7 +631,7 @@ h2.month {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+    font: 300 17px/1.7 "Noto Serif", "Noto Sans", helvetica, Arial, serif;
     color: #2E2E2E;
 }
 

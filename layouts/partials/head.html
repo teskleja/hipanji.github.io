@@ -34,7 +34,10 @@
 		rel="preload" as="font" crossorigin="crossorigin">
 	{{ end }}
 
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	<link rel="preload" href="{{ .Site.BaseURL }}css/style.css" as="style"
+		onload="this.onload=null; this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"></noscript>
 
 	<!-- static -->
 	<link rel="preload" href="{{ .Site.BaseURL }}css/highlight.css" as="style"
