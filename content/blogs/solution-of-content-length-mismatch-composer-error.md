@@ -2,7 +2,7 @@
 title: Solution of Content-Length Mismatch Composer error
 description: >-
   When we run Composer Install/Update, sometimes we got the command stuck on
-  that line. We do not know what's happened, this is the solution.
+  that line. We do not know what's happened, this is the solution
 date: 2019-11-01T08:28:55.531Z
 tags:
   - Composer
