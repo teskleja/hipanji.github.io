@@ -1,13 +1,12 @@
 ---
 title: Solution of Content-Length Mismatch Composer error
-description: >-
-  When we run Composer Install/Update, sometimes we got the command stuck on
-  that line. We do not know what's happened, this is the solution
+description: When we run Composer Install/Update, sometimes we got the command stuck on that line. We do not know what's happened, this is the solution
 date: 2019-11-01T08:28:55.531Z
 tags:
   - Composer
   - Daily Solution
 ---
+
 ![composer](/images/uploads/composer.png "composer")
 
 # Overview
@@ -27,7 +26,7 @@ After run above command, we will get more message about what is really happened.
 
 ![Content-Length Mismatch](/images/uploads/composer-2.png "Content-Length Mismatch")
 
-This error happened because our composer try to download a package that using ``http``. 
+This error happened because our composer try to download a package that using ``http``.
 
 ```json
 http://repo.packagist.org/p/provider-2013%24bd7910f3641ed9bf0e73ef873d4c8f0f83d999a62ada5eee0c03fc6a7db037bf.json
@@ -62,4 +61,4 @@ With this configuration, we will tell the composer to run only through https/ssh
 
 Then, let's run again our ```composer install`` and you will see it run smoothly without getting any error/stuck.
 
-Hope this help you! 
+Hope this help you!
