@@ -9,12 +9,15 @@ googleAnalytics = "UA-138671457-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
+# pagination
+paginate = 3
+
 [params]
 	author = "arhen"
 	description = "This is Arhen Personal Website, known as Rahmat H Slamet."
 	bio = "'Sharing is Caring'"
 
-	twitter = "arhen_desu"
+	twitter = "AmQnese"
 
 	enableRSS = false
 	enableToc = false
@@ -73,6 +76,6 @@ hasCJKLanguage = false
 
 # Add additional social link entries underneath
 [social]
-	twitter = "https://www.twitter.com/arhen_desu"
+	twitter = "https://www.twitter.com/AmQnese"
 	github = "https://www.github.com/arhen"
 	linkedin = "https://www.linkedin.com/in/rahmadslamet"
