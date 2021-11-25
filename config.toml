@@ -16,8 +16,8 @@ hasCJKLanguage = false
 
 	twitter = "arhen_desu"
 
-	enableRSS = true
-	enableToc = true
+	enableRSS = false
+	enableToc = false
 
 	enableDisqus = true
 	disqusShortname = "arhen"

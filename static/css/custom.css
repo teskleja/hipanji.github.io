@@ -13,7 +13,7 @@
 } */
 
 body {
-    font: 19px/1 'Noto Serif','Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Georgia, "Times New Roman", Times, serif;
+    font: 19px/1 'Noto Serif','Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Georgia, "Times New Roman", Times, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Serif','Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+    font-family: 'Noto Serif', 'Noto Serif','Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 }
 
 h1 {
@@ -78,30 +78,30 @@ h6 {
 }
 
 .post header h1 {
-	font: bolder 40px/1.7em 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+	font: bolder 40px/1.7em 'Noto Serif', 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-bottom: 20px;
 	letter-spacing: -1px;
 }
 
 .post h1 {
-	font: bold 34px/1.5em 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+	font: bold 34px/1.5em 'Noto Serif', 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-bottom: -0.9em;
 	letter-spacing: 1px;
 }
 
 .post h2 {
-	font: bold 26px/1.5em 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+	font: bold 26px/1.5em 'Noto Serif', 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-bottom: -0.9em;
 }
 
 .post h3 {
-	font: normal 20.72px/1.5em 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+	font: normal 20.72px/1.5em 'Noto Serif', 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-top: 50px;
 	margin-bottom: -0.9em;
 }
 
 .post h4 {
-	font: normal 16px/1.5em 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
+	font: normal 16px/1.5em 'Noto Serif', 'Noto Serif', 'Noto Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, serif;
 	margin-top: 50px;
 	margin-bottom: -0.9em;
 }
@@ -145,11 +145,16 @@ h6 {
 	line-height: 1.58;
 	margin-top: 2em;
 }
+
+#post-body h1, #post-body h2, #post-body h3, #post-body h4{
+	margin-top: 45px !important;
+}
+
 .welcome-description p {
     font-family: 'Noto Serif', serif;
     /* color: #595959; */
 	margin-bottom: -20px;
-	font-size: 18px;
+	font-size: 18px;`
 	letter-spacing: -0.004em;
 	line-height: 1.5em;;
 }
@@ -337,7 +342,7 @@ nav.main-nav a.cta {
 
 
 /* mobile */
-@media screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
 		font-size: 16px;
 	}
@@ -406,7 +411,7 @@ nav.main-nav a.cta {
 		line-height: 1.58;
 		margin-top: 2em;
 	}
-
+	
 	#disqus-button {
 		font-size: 13px;
 	}
@@ -424,8 +429,8 @@ nav.main-nav a.cta {
 }
 
 .dark-mode {
-	color: #fff !important;
-	background: #333 !important;
+	color: rgba(205,205,205) !important;
+	background: #292a2d !important;
 	transition: all 500ms ease;
 }
 
@@ -438,10 +443,10 @@ hr {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-#theme{
-	margin: 20px 8px -40px 8px;
-	font-size: 15pt;
-	cursor: pointer;
+.themes{
+	/* margin: 0px 8px -40px 8px; */
+	/* font-size: 15pt; */
+	/* cursor: pointer; */
 }
 
 code{
