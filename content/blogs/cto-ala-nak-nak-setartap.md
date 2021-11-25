@@ -1,6 +1,6 @@
 ---
 title: CTO ala nak-nak setartap.
-description: Belajar membangun usaha itu susah susah senang. Apalagi milik
+description: Belajar membangun bisnis itu susah susah senang. Apalagi milik
   sendiri, kudu banyak sabar dan tawakkal.
 date: 2021-11-21T11:16:46.660Z
 tags:
@@ -10,33 +10,33 @@ Yang dipelajari saat menjadi "CTO" ala-ala nak startup. Saya termasuk satu dari 
 
 Membuat perusahaan sendiri menjadi jalan yang dipilih. Sempat ragu, tapi itulah jalan yang sudah dipahat sejak semester 5. Sayang jika menyerah begitu saja. Berikut beberapa nilai yang saya dapat setelah kurang-lebih 5 tahun berada di posisi ini.
 
-### **Belajar Otodidak butuh niat dan usaha.**
+## **Belajar Otodidak butuh niat dan usaha.**
 
 Susah nggk? wah, banget. Belajar sesuatu tanpa bimbingan adalah hal yang hampir membuat banyak orang menyerah menggapai impian. Tentukan niat dan tujuan di awal membuat banyak hal menjadi mudah dan jelas. Sisanya yah usaha.
 
-### **Temukan Pasangan.**
+## **Temukan Pasangan.**
 
 Bukan pasangan sehidup semati ya, haha. Tapi se-visi se-misi. Bisa lebih dari satu. Saya bersyukur menemukan orang-orang hebat.
 
 Bersama itu kuat. Tapi yang lebih penting, bersama itu membuat sedihnya terbagi-bagi. Kita nggk sendiri saat susah.
 
-### **Tentukan porsi setiap orang.**
+## **Tentukan porsi setiap orang.**
 
 Penting untuk meminimalisir "masalah terkait perut dan kesibukan" dikemudian hari. Tentukan porsi kerja dan keuntungan sejak dini membuat semuanya semakin tenang saat bekerja. Tidak ada yang lebih sibuk, tidak ada yang lebih untung. Adil dan sehat.
 
-### **Belajar bisnis, hidup tidak jauh dari jual&beli.**
+## **Belajar bisnis, hidup tidak jauh dari jual&beli.**
 
 Walau saya berkutat dengan divisi teknologi, tidak jarang ikut terlibat dalam pengambilan keputusan dengan client. Membangun sesuatu dengan melihat perspektif bisnis membuat kita tidak lebih besar pasak daripada tiang.
 
-### **Memimpin bukan bakat lahir.**
+## **Memimpin bukan bakat lahir.**
 
 Saat awal merintis, saya pimpin tim beranggota 3 orang. Ribet, karena saya tidak lebih jago dari mereka. Apa yang membuat beda? Inisiatif. Seni berbicara dan berpendapat jadi kunci saat mengarahkan tim. Pengalaman jadi kunci selama apa kita bertahan.
 
-### **Memulai dari yang kecil.**
+## **Memulai dari yang kecil.**
 
 Di awal sering kok kita dapat "Makasih Mas". Kerjain projek web lumayan banyak, eh clientnya menghilang. Kerjain projek 3 hari 3 malam hanya dikash 500rb dibagi 3 orang. Saya tidak mewajari itu, tapi yang penting mulai aja dulu. Nanti naik sendiri.
 
-### **Menemukan mentor, lebih baik.**
+## **Menemukan mentor, lebih baik.**
 
 Tidak salah belajar dari pengalaman orang lain. Banyak banyak bergaul dan melibas semua ilmu yang diberikan lebih membantu saat bergerak maju tanpa arah. Mana baik, mana tepat didapat banyak dari pengalaman, sisanya teori dengan banyak baca.
 
