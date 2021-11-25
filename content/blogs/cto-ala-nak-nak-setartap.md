@@ -1,6 +1,6 @@
 ---
 title: CTO ala nak-nak setartap.
-description: Belajar membangun usaha itu susah susah senang. Apalagi milik
+description: Belajar membangun bisnis itu susah susah senang. Apalagi milik
   sendiri, kudu banyak sabar dan tawakkal.
 date: 2021-11-21T11:16:46.660Z
 tags:
