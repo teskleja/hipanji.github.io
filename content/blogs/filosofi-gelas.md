@@ -15,13 +15,13 @@ Tapi tulisan kali ini tidak akan membahas mengenai hal teknikal diatas, santai n
 
 ![Slide Gelas Kosong ](images/uploads/gelas-kosong-2.png "Slide Gelas Kosong ")
 
-Ini seru sih, soalnya pertama kalinya ada peserta yang bertanya. Ohiya, beberapa kali disetiap gw melakukan presentasi yang konteksnya berbagi, saya selalu menyelipkan slide dengan gambar gelas kosong ini sebagai slide kedua. Ada maksud dan makna yang ingin gw sampaikan dengan visual tersebut, dan konsep yang ingin diselaraskan dengan pendengar sebelum gw lanjut berbicara. 
+Ini seru sih, soalnya pertama kalinya ada peserta yang bertanya. Ohiya, beberapa kali disetiap gw melakukan presentasi yang konteksnya berbagi, gwselalu menyelipkan slide dengan gambar gelas kosong ini sebagai slide kedua. Ada maksud dan makna yang ingin gw sampaikan dengan visual tersebut, dan konsep yang ingin diselaraskan dengan pendengar sebelum gw lanjut berbicara. 
 
 # Filosofi Gelas
 
 Ada nilai yang gw prinsipi sejak lama terkait etika berdiskusi yakni menyelaraskan persepsi terlebih dahulu. Gw menganggap, pentingnya poin ini sebelum kita lanjut berdiskusi dengan tema-tema berat yang menggugah pemikiran pihak-pihak dalam lingakaran diskusi. Menurut gw, ego merupakan pantangan paling terbesar ketika seseorang ingin menerima/memberikan ilmu. Dengan menurunkan ego, langkah pertama untuk diskusi yang sehat akan terlaksana.
 
-Dalam proses menurunkan ego ini, ada banyak metode yang saya pelajari konsepnya dari buku/tulisan yang telah saya baca salah satunya dari buku ["How to talk to Anyone, Anytime, Anywhere karya Larry King"](https://www.amazon.com/Talk-Anyone-Anytime-Anywhere-Communication/dp/0517884534). Mungkin kalian pernah mendengar istilah mindset "[Half Full - Half Empty Glass](https://www.learning-mind.com/psychological-test-do-you-see-the-glass-half-empty-or-half-full/)" untuk menguji perspektif kita saat proses belajar hal baru. Tapi bukan itu yang gw ingin sampaikan, karena ada konsep lain yang lebih menarik bg gw yakni "Berpikir tentang sebuah gelas saat akan diisi air". 
+Dalam proses menurunkan ego ini, ada banyak metode yang gw pelajari konsepnya dari buku/tulisan yang telah gw baca salah satunya dari buku ["How to talk to Anyone, Anytime, Anywhere karya Larry King"](https://www.amazon.com/Talk-Anyone-Anytime-Anywhere-Communication/dp/0517884534). Mungkin kalian pernah mendengar istilah mindset "[Half Full - Half Empty Glass](https://www.learning-mind.com/psychological-test-do-you-see-the-glass-half-empty-or-half-full/)" untuk menguji perspektif kita saat proses belajar hal baru. Tapi bukan itu yang gw ingin sampaikan, karena ada konsep lain yang lebih menarik bg gw yakni "Berpikir tentang sebuah gelas saat akan diisi air". 
 
 Singkatnya, konsep ini terbagi akan 3 tipe. Tergantung siapa dan bagaimana kita bersikap sebelum diskusi/belajar. 
 
