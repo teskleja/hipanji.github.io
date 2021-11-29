@@ -11,9 +11,9 @@ tags:
 
 Pada pertengahan bulan november 2021, gw akhirnya berkesempatan menyampaikan Tech Talk LAGI di perusahaan yang gw kembangin. hahah, terakhir kali gw ingat sekitar 5-6 bulan yang lalu. Ini utang gw sih sebagai tech lead, yah karena serba serbi kehidupan teknikal yang praktis, padat dan berkembang pesat membuat upgrading (istilah dipakai di perusahaan gw untuk upgrade ilmu dalam tim) ini baru kesampaian lagi. 
 
-Senang dan bersyukur, karena yang hadir cukup banyak bukan hanya dari internal tim saja (yang direncanakan) tapi dari alumni beberapa batch magang yang terlewati hingga teman teman komunitas juga. What a moment. Materi yang gw bawakan juga cukup ringan bagi pemula, yakni Continuous Integration & Continuous Delivery (CI/CD). Jika ada kesempatan, gw coba lagi lah ya jelasin materi itu versi gw di blog ini.
+Senang dan bersyukur, karena yang hadir cukup banyak bukan hanya dari internal tim saja (yang direncanakan) tapi dari alumni beberapa batch magang yang terlewati hingga teman teman komunitas juga. What a moment. Materi yang gw bawakan juga cukup ringan bagi pemula, yakni [Continuous Integration & Continuous Delivery (CI/CD)](https://bit.ly/upana-cicd). Jika ada kesempatan, gw coba lagi lah ya jelasin materi itu versi gw di blog ini.
 
-Tapi tulisan kali ini tidak akan membahas mengenai hal teknikal diatas, santai nggak usah close tab dulu, tahan. Yang ingin gw bahas sebenarnya hal sederhana yang berawal dari salah satu upgrading diatas. Yakni di slide kedua slide presentasi [CI/CD](bit.ly/upana-cicd), ada yang bertanya mengenai slide kosong yang hanya menampilkan sebuah gambar gelas yang isinya kosong. 
+Tapi tulisan kali ini tidak akan membahas mengenai hal teknikal diatas, santai nggak usah close tab dulu, tahan. Yang ingin gw bahas sebenarnya hal sederhana yang berawal dari salah satu upgrading diatas. Yakni di slide kedua slide presentasi [CI/CD](https://bit.ly/upana-cicd), ada yang bertanya mengenai slide kosong yang hanya menampilkan sebuah gambar gelas yang isinya kosong. 
 
 ![Slide Gelas Kosong ](images/uploads/gelas-kosong-2.png "Slide Gelas Kosong ")
 
