@@ -56,3 +56,39 @@ document.addEventListener(
 	},
 	false
 );
+
+window.onload = (event) => {
+	var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+	if ("IntersectionObserver" in window && "IntersectionObserverEntry" in window && "intersectionRatio" in
+		window.IntersectionObserverEntry.prototype) {
+		let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+			entries.forEach(function (entry) {
+				if (entry.isIntersecting) {
+					let smallImage = entry.target
+					let lazyParentImageDiv = smallImage.parentElement;
+
+					//add effect blurring with effect transition
+					smallImage.classList.add('loaded');
+
+					// Load large image
+					var largeImage = new Image();
+					largeImage.src = lazyParentImageDiv.getAttribute('data-large');
+					largeImage.onload = function () {
+						largeImage.classList.add('loaded');
+						smallImage.replaceWith(largeImage);
+					};
+
+					largeImage.classList.remove("lazy");
+					if(entry.intersectionRatio > 0){
+						lazyImageObserver.unobserve(smallImage);
+					}
+				}
+			});
+		});
+
+		lazyImages.forEach(function (lazyImage) {
+			lazyImageObserver.observe(lazyImage);
+		});
+	}
+};

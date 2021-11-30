@@ -336,9 +336,12 @@ nav.main-nav a.cta {
 }
 
 
-.profile #avatar {
+.profile .placeholder {
 	width: 130px;
 	height: 130px;
+	margin: 0px auto;
+	border-radius: 50%;
+	margin-bottom: 20px;
 }
 
 

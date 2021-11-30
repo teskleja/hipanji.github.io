@@ -104,8 +104,7 @@ Progressive Image Loading pertama kali diperkenalkan oleh [José M. Pérez](http
 
 Antara proses 2 & 3, _placeholder image_ akan ditampilkan dalam efek _blurring_ hingga gambar asli selesai di _load_ oleh _browser_. Proses mengunduh gambar asli inilah yang disebut dengan _progressive_. Lebih jelasnya silahkan lihat contoh hasil penerapan metode ini di [blog-without-lazyload.herokuapp.com/progressive.html](https://blog-without-lazyload.herokuapp.com/progressive.html), matikan cache browser, atau tekan _cmd+shift+R_ (Waktu _rendering_ tergantung _device_ dan koneksi).
 
-{{< img src="images/uploads/site-with-progressive.png" alt="Site-with-progressive" >}}
-
+{{< img src="images/uploads/site-with-progressive-load.png" alt="Site-with-progressive" >}}
 _And that's it!_ _Rendering Time_ pada halaman web berkurang dengan sangat drastis. Saya sendiri selalu memilih teknik ini ketimbang _lazyloading_ walau penggunaan _bandwidth user_ akan lebih besar. Kekurangan ini akan diatasi pada teknik selanjutnya.
 
 ## How it can be so fast?

@@ -2,7 +2,11 @@
     <section id="wrapper-prof">
         <header id="header">
             <a href='{{ with .Site.Params.avatarLink }}{{ . }}{{ else }}{{ .Site.BaseURL }}now{{ end }}'>
-                <img id="avatar" class="2x" src="{{ .Site.BaseURL }}images/avatar.jpg" alt="Profile Picture" aria-label="User Profile Picture"/>
+				<div class="image_placeholder">
+					<div class="placeholder" data-large="{{ .Site.BaseURL }}images/avatar.jpg">
+						<img id="avatar" src="{{ .Site.BaseURL }}images/avatar.jpg" class="img-small 2x lazy" alt="Profile Picture">
+					</div>
+				</div>
             </a>
 			<br>
 			
