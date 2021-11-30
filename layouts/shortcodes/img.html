@@ -1,0 +1,13 @@
+{{ if .Params.src }}
+
+{{ $src := resources.Get .Params.src}}
+{{ $ph := $src.Resize "2x q85 Box" }}
+{{ $pb := (mul 0.7 $src.Width) }}
+
+<div class="image_placeholder">
+	<div class="placeholder" data-large="{{ $src.RelPermalink }}">
+		<img src="{{ $ph.RelPermalink }}" class="img-small lazy" alt={{ .Params.title }}>
+	</div>
+</div>
+
+{{ end }}

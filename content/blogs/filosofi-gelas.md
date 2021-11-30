@@ -7,17 +7,17 @@ date: 2021-11-29T15:08:08.676Z
 tags:
   - life
 ---
-![Gelas Kosong](images/uploads/gelas-air.jpg "Gelas Kosong")
+{{< img src="images/uploads/gelas-air.jpg" alt="Gelas Kosong" >}}
 
 Pada pertengahan bulan november 2021, gw akhirnya berkesempatan menyampaikan Tech Talk LAGI di perusahaan yang gw kembangin. hahah, terakhir kali gw ingat sekitar 5-6 bulan yang lalu. Ini utang gw sih sebagai tech lead, yah karena serba serbi kehidupan teknikal yang praktis, padat dan berkembang pesat membuat upgrading (istilah dipakai di perusahaan gw untuk upgrade ilmu dalam tim) ini baru kesampaian lagi. 
 
 Senang dan bersyukur, karena yang hadir cukup banyak bukan hanya dari internal tim saja (yang direncanakan) tapi dari alumni beberapa batch magang yang terlewati hingga teman teman komunitas juga. What a moment. Materi yang gw bawakan juga cukup ringan bagi pemula, yakni [Continuous Integration & Continuous Delivery (CI/CD)](https://bit.ly/upana-cicd). Jika ada kesempatan, gw coba lagi lah ya jelasin materi itu versi gw di blog ini.
 
-Tapi tulisan kali ini tidak akan membahas mengenai hal teknikal diatas, santai nggak usah close tab dulu, tahan. Yang ingin gw bahas sebenarnya hal sederhana yang berawal dari salah satu upgrading diatas. Yakni di slide kedua slide presentasi [CI/CD](https://bit.ly/upana-cicd), ada yang bertanya mengenai slide kosong yang hanya menampilkan sebuah gambar gelas yang isinya kosong. 
+Tapi tulisan kali ini tidak akan membahas mengenai hal teknikal diatas, santai nggak usah close tab dulu, tahan. Yang ingin gw bahas sebenarnya hal sederhana yang berawal dari salah satu upgrading diatas. Yakni di slide kedua slide presentasi [CI/CD](https://bit.ly/upana-cicd), ada yang bertanya mengenai slide kosong yang hanya menampilkan sebuah gambar gelas yang isinya kosong.
 
-![Slide Gelas Kosong ](images/uploads/gelas-kosong-2.png "Slide Gelas Kosong ")
+{{< img src="images/uploads/gelas-kosong-2.png" alt="Slide Gelas Kosong" >}}
 
-Ini seru sih, soalnya pertama kalinya ada peserta yang bertanya. Ohiya, beberapa kali disetiap gw melakukan presentasi yang konteksnya berbagi, gwselalu menyelipkan slide dengan gambar gelas kosong ini sebagai slide kedua. Ada maksud dan makna yang ingin gw sampaikan dengan visual tersebut, dan konsep yang ingin diselaraskan dengan pendengar sebelum gw lanjut berbicara. 
+Ini seru sih, soalnya pertama kalinya ada peserta yang bertanya. Ohiya, beberapa kali disetiap gw melakukan presentasi yang konteksnya berbagi, gwselalu menyelipkan slide dengan gambar gelas kosong ini sebagai slide kedua. Ada maksud dan makna yang ingin gw sampaikan dengan visual tersebut, dan konsep yang ingin diselaraskan dengan pendengar sebelum gw lanjut berbicara.
 
 # Filosofi Gelas
 
@@ -29,19 +29,19 @@ Singkatnya, konsep ini terbagi akan 3 tipe. Tergantung siapa dan bagaimana kita 
 
 ## Gelas Tertutup
 
-![Gelas Tertutup](images/uploads/gelas-terbalik.jpg "Gelas Tertutup")
+{{< img src="images/uploads/gelas-terbalik.jpg" alt="Gelas Tertutup" >}}
 
 Sesedarhana posisinya, bayangin saat tipe orang seperti ini yang terlibat dalam diskusi. Yah nggak bakalan bisa terisi, biar ngomongin panjang lebar atas bawah kiri kanan luar dalam-pun takkan ada yang dicerna. Bukan hanya dicerna, bahkan terksesan tidak mau mendengar. Tipe seperti ini buat diskusi 5 menit terasa sejam/dua jam. Capek. Lelah. Dan tidak ada manfaatnya.
 
 ## Gelas Bocor
 
-![Gelas Bocor](images/uploads/gelas-bocor.jpg "Gelas Bocor")
+{{< img src="images/uploads/gelas-bocor.jpg" alt="Gelas Bocor" >}}
 
 Gelas bocor penyebab gelas akan pecah jika dibiarkan terlalu lama. Dalam etika berdiskusi, tipe orang seperti ini cenderung mendengar tapi tidak mendengarkan. Berbeda dari tipe gelas tertutup sebelumnya, tipe ini terlihat mengerti yang disampaikan oleh lawan bicaranya tapi jelas tidak memahami apa yang sedang dibicarakan. Tipe seperti ini membuat diskusi yang berjalan selama sejam/dua jam menjadi seperti 5 menit atau tidak berarti sama sekali.
 
 ## Gelas Kosong
 
-![Gelas Kosong](images/uploads/gelas-kosong.jpg "Gelas Kosong")
+{{< img src="images/uploads/gelas-kosong.jpg" alt="Gelas Kosong" >}}
 
 Terakhir, tipe gelas yang sudah pasti jika diisi air akan menampung dan membentuk air yang masuk persis seperti bentuk gelasnya itu sendiri. Ia tidak tertutup maupun bocor. Apa yang disampaikan itulah yang ia cerna, pahami dan resapi sesuai pandangan ia sendiri. Tipe teman diskusi seperti ini yang gw harapin saat sebelum memberi penjelasan, maupun gw berusaha semaksimal mungkin untuk menjadi tipe ini disetiap diskusi apapun, siapapun, kapanpun. 
 

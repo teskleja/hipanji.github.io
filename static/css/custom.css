@@ -248,7 +248,7 @@ ul>li {
 }
 
 #post-body img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
     /* padding: 10px 10px; */
     /* margin: 20px 0px; */
@@ -525,4 +525,46 @@ blockquote{
 
 a {
   color: #6197e2;
+}
+
+/* progresive image loading css */
+.placeholder {
+	background-color: #f6f6f6;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	/* float: left; */
+	margin: 50px auto;
+	line-height: 0;
+	border: 0.5px solid #292a2d;
+	border-radius: 4px;
+	-webkit-transition: border 0.2s ease-in-out;
+	-o-transition: border 0.2s ease-in-out;
+	transition: border 0.2s ease-in-out;
+}
+
+.placeholder img {
+	position: relative;
+	opacity: 0;
+	/* top: 0;
+	left: 0; */
+	width: 100%;
+	transition: opacity 1s linear;
+}
+
+.placeholder img.loaded {
+	opacity: 1;
+}
+
+.img-small {
+	filter: blur(50px);
+	/* this is needed so Safari keeps sharp edges */
+	transform: scale(1);
+}
+
+.image_placeholder {
+	/* padding-top: 00px; */
+	display: block;
 }
