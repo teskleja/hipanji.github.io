@@ -10,7 +10,8 @@ tags:
   - CSS
   - PWA
 ---
-![arhen.dev performances](/images/uploads/wow.png "https://arhen.dev performances")
+
+{{< img src="images/uploads/wow.png" alt="https://arhen.dev performances" >}}
 
 # Overview
 
@@ -36,7 +37,7 @@ What I did here is put preload attribute to my CSS asset. This is the most known
 
 since I've used MonoSocialIcon font, I have to make sure that if the fonts not load correctly, the display of the section that use the font still show something to user. In this case, My social button in this website:
 
-![social button](/images/uploads/social-button.png "social button")
+{{< img src="images/uploads/social-button.png" alt="social button" >}}
 
 ```css
 @font-face {

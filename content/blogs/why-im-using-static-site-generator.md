@@ -19,7 +19,7 @@ Awalnya saya berencana untuk memakai Wordpress sebagai _Tech-Stack_ dibalik webs
 
 Wordpress mempunyai keunggulan yang sangat banyak dalam hal manajemen website. Tak terpungkiri bahwa Wordpress merupakan CMS yang paling populer saat ini.
 
-![CMS market share](/images/uploads/wp.png "Stats about CMS market share")
+{{< img src="images/uploads/wp.png" alt="Stats about CMS market share" >}}
 
 Proses instalasi wordpress yang mudah dan support penuh terhadap SEO membuat CMS ini menjadi pilihan utama hampir setiap orang yang ingin memiliki website/blog pribadi.
 

@@ -55,7 +55,7 @@ window.onload = (event) => {
 
 Hasilnya seperti berikut (Waktu _rendering_ tergantung _device_ dan koneksi):
 
-![Site-without-lazyload](/images/uploads/site-without-lazyload.png "Site-without-lazyload")
+{{< img src="images/uploads/site-without-lazyload.png" alt="site-without-lazyload" >}}
 
 Proses ini membutuhkan setidaknya **41 detik** untuk menampilkan ke-6 gambar secara utuh. Terlihat pada _network tab DevTools_ bagaimana proses _rendering_ terjadi.
 
@@ -88,7 +88,7 @@ Kemudian, kita aktifkan fitur _lazyload_-nya:
 
 Setelah menerapkan _lazyload_, waktu _rendering_ halaman menurun hingga **\- 25%** menjadi **29.6 detik!** Silahkan buka [blog-without-lazyload.herokuapp.com/lazyload.html](https://blog-without-lazyload.herokuapp.com/lazyload.html), matikan cache browser, atau tekan _cmd+shift+R_ (Waktu _rendering_ tergantung _device_ dan koneksi).
 
-![site-with-lazyload](/images/uploads/site-with-lazyload.png "site-with-lazyload")
+{{< img src="images/uploads/site-with-lazyload.png" alt="site-with-lazyload" >}}
 
 Terlihat pada gambar, _browser_ hanya melakukan _request_ 3 gambar yang muncul dilayar ke _server_. Jika halaman di _scroll_, _browser_ kembali melakukan request 3 gambar sisanya. Teknik _lazyload_ ini pada dasarnya menggunakan [_Intersect Observer API_](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), sebuah teknik _modern web app_ dengan melakukan observasi pada halaman secara _asynchronous_.
 
@@ -104,7 +104,7 @@ Progressive Image Loading pertama kali diperkenalkan oleh [José M. Pérez](http
 
 Antara proses 2 & 3, _placeholder image_ akan ditampilkan dalam efek _blurring_ hingga gambar asli selesai di _load_ oleh _browser_. Proses mengunduh gambar asli inilah yang disebut dengan _progressive_. Lebih jelasnya silahkan lihat contoh hasil penerapan metode ini di [blog-without-lazyload.herokuapp.com/progressive.html](https://blog-without-lazyload.herokuapp.com/progressive.html), matikan cache browser, atau tekan _cmd+shift+R_ (Waktu _rendering_ tergantung _device_ dan koneksi).
 
-![Site-with-progressive](/images/uploads/site-with-progressive-load.png "Site-with-progressive")
+{{< img src="images/uploads/site-with-progressive.png" alt="Site-with-progressive" >}}
 
 _And that's it!_ _Rendering Time_ pada halaman web berkurang dengan sangat drastis. Saya sendiri selalu memilih teknik ini ketimbang _lazyloading_ walau penggunaan _bandwidth user_ akan lebih besar. Kekurangan ini akan diatasi pada teknik selanjutnya.
 

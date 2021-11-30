@@ -7,7 +7,7 @@ tags:
   - Daily Solution
 ---
 
-![composer](/images/uploads/composer.png "composer")
+{{< img src="images/uploads/composer.png" alt="composer" >}}
 
 # Overview
 
@@ -24,7 +24,7 @@ composer install -vvv
 
 After run above command, we will get more message about what is really happened. And then, the "real" problem appear.
 
-![Content-Length Mismatch](/images/uploads/composer-2.png "Content-Length Mismatch")
+{{< img src="images/uploads/composer-2.png" alt="Content-Length Mismatch" >}}
 
 This error happened because our composer try to download a package that using ``http``.
 

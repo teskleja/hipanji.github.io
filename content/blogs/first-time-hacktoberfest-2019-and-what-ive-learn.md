@@ -7,7 +7,8 @@ date: 2019-10-29T08:38:44.945Z
 tags:
   - Achievement
 ---
-![hacktoberfest-2019-completed](/images/uploads/hacktoberfest.png "hacktoberfest-2019-completed")
+
+{{< img src="images/uploads/hacktoberfest.png" alt="hacktoberfest-2019-completed" >}}
 
 Ini pertama kalinya saya mengikuti dan menyelesaikan challenges **hacktoberfest 2019**. Tahun-tahun sebelumnya cuman ngikut perkembangannya saja, tanpa ikut berkotribusi. Rasa menyesal tahun lalu coba saya sembuhkan dengan mengikuti program tahun ini. Betapa bahagianya mendapatkan email tentang keberhasilan ini.
 
@@ -28,6 +29,6 @@ Sebelumnya, saya mengira bahwa _event hacktoberfest_ hanya seperti sebuah _event
 
 Selain mendapatkan manfaat-manfaat diatas, kita juga berkesempatan mendapat hadiah dari _event_ ini. Jika memenuhi target sumbangsih khusus, kita akan mendapatkan notifikasi untuk melakukan _claim_ pada hadiah yang diberikan. 
 
-![tshirt-hacktoberfest-claim](/images/uploads/hacktoberfest2.png "tshirt-hacktoberfest-claim")
+{{< img src="images/uploads/hacktoberfest2.png" alt="tshirt-hacktoberfest-claim" >}}
 
 Sudah gratis, bermanfaat, ada hadiahnya lagi. Yakin nggak mau ikutan untuk _event_ tahun depan? artikel ini akan menjadi pengingat untuk saya ditahun depan. Jangan ketinggalan pokoknya!!
