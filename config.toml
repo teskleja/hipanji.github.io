@@ -35,7 +35,7 @@ paginate = 3
 
 	enableTwitterCard = true
 	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = "images/avatar.jpg"
+	# twitterCardImage = "images/avatar.jpg"
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ['css/custom.css']
