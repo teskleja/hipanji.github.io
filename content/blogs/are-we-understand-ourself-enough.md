@@ -5,7 +5,7 @@ date: 2022-01-17T15:07:27.271Z
 tags:
   - life
 ---
-![nothingness](/images/uploads/download.png "nothingness")
+![nothingness]( "nothingness")
 
 \
 \
