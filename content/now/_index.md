@@ -7,11 +7,11 @@ Inspired by [Derek Sivers](https://sivers.org/now). This page may give you gener
 
 ## Skills
 
-I am proficiency working on Unix/Linux environment. I have 5+ year experience in several programming languages such as PHP, C#, and Javascript. Currently focus on Ruby and Python for work requirements. Golang, Automation, Web3, and blockchain is my interest right now.
+I am proficiency working on Unix/Linux environment. I have 8+ year experience in several programming languages such as PHP, C#, Javascript, Ruby and Python for work requirements.
 
 ## Work
 
-Currently working as Tech Lead Software Engineer at my own software house, **[Upana Studio](https://www.upanastudio.com)** and Team Lead of Backend Developer at [Sehati.co](https://Sehati.co).
+Currently working as Tech Lead at **[Maleo Creative Agency](https://maleo.agency)** and **[Surge](surgeinteractive.asia)**, Former Tech lead at **[Upana Studio](https://www.upanastudio.com)** and previously worked as Team Lead of Backend Developer at [Sehati.co](https://Sehati.co)
 
 ## Relationship
 
@@ -23,11 +23,8 @@ Currently I'm an ESFP. Check [16 Personality](https://www.16personalities.com/) 
 
 ## Book
 
-I do not read any book right now. 
-
-## Community
-
-[Komunitas Programmer Makassar](https://kpmks.github.io)
+-﻿ Talking to Strangers by Malcolm Gladwell
+-﻿ Atomic Habits by James Clear
 
 ## Social Media
 
