@@ -16,7 +16,7 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
 ## Flow
 
-![Chat Bot concept using pinecone](/images/uploads/cb-high-level-architecture.png)
+{{< img src="images/uploads/cb-high-level-architecture.png" alt="High Level Architecture" >}}
 
 * **Users**: Humans interacting with the system
 * **Chatbot**:
@@ -44,26 +44,33 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
 ## The most important aspect: Building our own system
 
-![Inside ChatBot using LangChain](/images/uploads/cb-architecture.png)
+Just directly build our apps is the best way to start learning. [Learn LangChain and ChatGPT video from Replit](https://replit.com/@MckayWrigley/Takeoff-School-LangChain-101-Models?v=1) is the best way to start.
+
+{{< img src="images/uploads/cb-architecture.png" alt="Inside Chatbot - Architecture" >}}
 
 * Choose a library to load the model or connect to an existing model
 * Build the interaction interface: React, Vue, WhatsApp, Telegram, etc.
 
 ## Library for LLM
 
-* **LangChain**: [Documentation](https://python.langchain.com/en/latest/modules/chains/how_to_guides.html)
+This is the root documentation to interact with LLMs:
 
-## Related stuff
-
-* Overview of ChatGPT / AI models: [YouTube Video](https://www.youtube.com/watch?v=WVct5y3hBEg)
-* Prompts Generator: [ChatGPT Prompts Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator)
+* **Python LangChain**: [Documentation](https://python.langchain.com/en/latest/modules/chains/how_to_guides.html)
 * JavaScrip LLMs library: [Javacript LangChain](https://js.langchain.com/docs/)
-* Python LLMs library: [LangChain and ChatGPT Tutorial](https://blog.futuresmart.ai/building-chatbot-using-langchain-and-chatgpt)
 * Rust LLMs library: [Rust LangChain](https://docs.rs/langchain/latest/langchain/)
 * Go LLMs library: [Go LangChain](hhttps://github.com/tmc/langchaingo)
 * PHP LLMs library: [PHP LangChain](https://github.com/kambo-1st/langchain-php)
 
+## Related stuff
+
+Using this resources for kickstart your project:
+
+* Overview of ChatGPT / AI models: [YouTube Video](https://www.youtube.com/watch?v=WVct5y3hBEg)
+* Prompts Generator: [ChatGPT Prompts Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator)
+
 ## Examples
+
+Learn some best practices and examples:
 
 * **Chatbot using JS: [Pinecone Tutorial](https://www.pinecone.io/learn/javascript-chatbot/)**
 * **Chatbot using Python: [LangChain and ChatGPT Tutorial](https://blog.futuresmart.ai/building-chatbot-using-langchain-and-chatgpt)**
