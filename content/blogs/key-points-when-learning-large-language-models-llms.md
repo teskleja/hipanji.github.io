@@ -38,16 +38,16 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
   * We can build our own knowledge crawling or data storing system
 
-## The most important aspect: Building our own system!
+## The most important aspect: Building our own system
 
-* Choose a library to load the model or connect to an existing model 
+* Choose a library to load the model or connect to an existing model
 * Build the interaction interface: React, Vue, WhatsApp, Telegram, etc.
 
 ## Library for LLM
 
 * **LangChain**: [Documentation](https://python.langchain.com/en/latest/modules/chains/how_to_guides.html)
 
-## Tutorials
+## Related stuff
 
 * Overview of ChatGPT / AI models: [YouTube Video](https://www.youtube.com/watch?v=WVct5y3hBEg)
 * JavaScript: [Pinecone Tutorial](https://www.pinecone.io/learn/javascript-chatbot/)
