@@ -8,7 +8,7 @@ tags:
   - LLM
   - AI
 ---
-# Introduction to Building Systems with Large Language Models (LLMs)
+## Introduction to Building Systems with Large Language Models (LLMs)
 
 In the era of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for understanding and generating human-like text. These models, trained on vast amounts of data, can be utilized in a variety of applications, from chatbots to content generation and more. This guide provides a comprehensive overview of the key components involved in implementing LLMs, including the role of users, the function of chatbots, the importance of prompts, and the process of building your own system. Whether you're a seasoned AI practitioner or a beginner in the field, this guide offers valuable insights into the world of LLMs.
 
