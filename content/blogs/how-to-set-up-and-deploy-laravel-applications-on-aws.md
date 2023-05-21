@@ -1,10 +1,7 @@
 ---
 title: How to Set Up and Deploy Laravel Applications on AWS
-description: This guide provides step-by-step instructions on how to set up and
-  deploy Laravel applications on AWS (Amazon Web Services). Laravel is a popular
-  PHP framework used for web application development, and AWS offers a range of
-  services that can facilitate the hosting, scaling, and deployment of Laravel
-  applications.
+description: "This guide provides step-by-step instructions on how to set up and
+  deploy Laravel applications on AWS (Amazon Web Services). "
 date: 2023-05-20T08:42:14.995Z
 tags:
   - programming
