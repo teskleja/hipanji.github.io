@@ -16,7 +16,7 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
 ## Flow
 
-![Chat Bot concept using pinecone](/images/uploads/cb-high-level-architecture.png "Simple flow Chat Bot concept using pinecone")
+![Chat Bot concept using pinecone](/images/uploads/cb-high-level-architecture.png)
 
 * **Users**: Humans interacting with the system
 * **Chatbot**:
@@ -44,7 +44,7 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
 ## The most important aspect: Building our own system
 
-![Inside ChatBot using LangChain](/images/uploads/cb-architecture.png "Inside ChatBot using LangChain")
+![Inside ChatBot using LangChain](/images/uploads/cb-architecture.png)
 
 * Choose a library to load the model or connect to an existing model
 * Build the interaction interface: React, Vue, WhatsApp, Telegram, etc.
