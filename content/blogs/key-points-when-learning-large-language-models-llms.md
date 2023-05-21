@@ -12,6 +12,8 @@ tags:
 
 In the era of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for understanding and generating human-like text. These models, trained on vast amounts of data, can be utilized in a variety of applications, from chatbots to content generation and more. This guide provides a comprehensive overview of the key components involved in implementing LLMs, including the role of users, the function of chatbots, the importance of prompts, and the process of building your own system. Whether you're a seasoned AI practitioner or a beginner in the field, this guide offers valuable insights into the world of LLMs.
 
+* **Paper about LLMs**: [Attention is All You Need](https://bytez.com/read/arxiv/1706.03762?hl=en)
+
 ## Flow
 
 * **Users**: Humans interacting with the system
@@ -19,7 +21,7 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 
   * **Model**: Large Language Models (LLMs) serving as AI translators
 
-    * Examples: Chat GPT4.0, Chat GPT 3.5-turbo, Davinci Code, etc.
+    * Examples: Chat GPT4.0, Chat GPT 3.5-turbo, Davinci Code, etc. (see [ChatGPT Models](https://platform.openai.com/docs/models/overview))
   * **Prompt**: Set of syntax/instructions that guide the model's responses
 
     * We can use existing prompts or create our own.
@@ -50,5 +52,14 @@ In the era of artificial intelligence, Large Language Models (LLMs) have emerged
 ## Related stuff
 
 * Overview of ChatGPT / AI models: [YouTube Video](https://www.youtube.com/watch?v=WVct5y3hBEg)
-* JavaScript: [Pinecone Tutorial](https://www.pinecone.io/learn/javascript-chatbot/)
-* Python: [LangChain and ChatGPT Tutorial](https://blog.futuresmart.ai/building-chatbot-using-langchain-and-chatgpt)
+* Prompts Generator: [ChatGPT Prompts Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator)
+* JavaScrip LLMs library: [Javacript LangChain](https://js.langchain.com/docs/)
+* Python LLMs library: [LangChain and ChatGPT Tutorial](https://blog.futuresmart.ai/building-chatbot-using-langchain-and-chatgpt)
+* Rust LLMs library: [Rust LangChain](https://docs.rs/langchain/latest/langchain/)
+* Go LLMs library: [Go LangChain](hhttps://github.com/tmc/langchaingo)
+* PHP LLMs library: [PHP LangChain](https://github.com/kambo-1st/langchain-php)
+
+## Examples
+
+* **Chatbot using JS: [Pinecone Tutorial](https://www.pinecone.io/learn/javascript-chatbot/)**
+* **Chatbot using Python: [LangChain and ChatGPT Tutorial](https://blog.futuresmart.ai/building-chatbot-using-langchain-and-chatgpt)**
