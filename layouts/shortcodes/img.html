@@ -5,6 +5,7 @@
 
 {{ $alt := "" }}
 {{ if eq .Params.title nil }}
+	{{ $alt = "Example image" }}
 {{ else }}
 	{{ $alt = .Params.title }}
 {{ end }}

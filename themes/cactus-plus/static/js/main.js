@@ -89,8 +89,8 @@ window.onload = (event) => {
 						largeImage.classList.add('loaded');
 						largeImage.alt = alt;
 						largeImage.setAttribute('aria-label', alt);
-            largeImage.setAttribute('width', largeImage.width + "px");
-            largeImage.setAttribute('height', "auto");
+            largeImage.setAttribute('width', largeImage.width);
+            largeImage.setAttribute('height', largeImage.height);
 						smallImage.replaceWith(largeImage);
 					};
           lazyParentImageDiv.setAttribute('style', 'border: none;');
