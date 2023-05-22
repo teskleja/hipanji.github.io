@@ -38,8 +38,8 @@ paginate = 3
 	# twitterCardImage = "images/avatar.jpg"
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = ['css/custom.css']
-	customJS  = []
+	customCSS = ['https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css', 'css/custom.css']
+	customJS  = ['https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js']
 
 	# The variables below are optionally too and can be used to
 	# translate or customize each string of the theme.
@@ -70,7 +70,7 @@ paginate = 3
 	subtitle404 = "You entered in the wrong room buddy! Go back."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
+	iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "empty"
 

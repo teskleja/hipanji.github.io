@@ -490,11 +490,6 @@ code{
 	background: #333333;
 }
 
-.dark-mode code{
-	color: #adadad;
-	background: #1f1f22;
-}
-
 .dark-mode #toc{
 	background-color: #29292e;
 }
@@ -557,6 +552,7 @@ a {
 	-webkit-transition: border 0.2s ease-in-out;
 	-o-transition: border 0.2s ease-in-out;
 	transition: border 0.2s ease-in-out;
+	height: auto;
 }
 
 .placeholder img {
@@ -832,3 +828,36 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 #footer a {
 	text-decoration:underline;
 }
+
+pre {
+	background-color: #f5f2f0 !important;
+}
+
+pre code {
+	background: none !important;
+	font-size: 12px !important;
+}
+
+code {
+	/* background-color: #d7d !important; */
+	padding: 1px 3px;
+	color: #dc8a2d;
+	background-color: #f5f2f0 !important;
+}
+
+body.dark-mode pre code {
+	color: #767676;
+	background: none !important;
+}
+
+body.dark-mode .token.operator {
+	background: none !important;
+}
+
+body.dark-mode code {
+	padding: 1px 3px;
+	color: #dc8a2d;
+	background-color: #262626 !important;
+}
+
+

@@ -1,7 +1,11 @@
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
 
 {{ range .Site.Params.customJS }}
+{{ if strings.HasPrefix . "http" }}
+<script src="{{ . }}"></script>
+{{ else }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+{{ end }}
 {{ end }}
 
 {{ if .Site.Params.enableGoogleAnalytics }}
