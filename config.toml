@@ -70,7 +70,7 @@ paginate = 3
 	subtitle404 = "You entered in the wrong room buddy! Go back."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "mono-social"
+	iconFont = "font-awesome"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "empty"
 
