@@ -583,6 +583,10 @@ a {
 	display: block;
 }
 
+body.white-mode #post-list h2 {
+	color: #0c0c0ce8;
+}
+
 @media only screen and (max-device-width: 520px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
 		-x-height-multiplier: 0.375;
@@ -763,7 +767,10 @@ a {
 		margin-top: 0px;
 	}
 
-	
+	body.white-mode #post-list h2 {
+		color: #0c0c0ce8;
+		font-size: 12px;
+	}
 }
 
 body.white-mode a, body.white-mode #title, body.white-mode #post-list a:hover, body.white-mode #title:hover {
@@ -813,3 +820,4 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 #social p {
 	font-size: 14px;
 }
+
