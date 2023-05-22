@@ -797,6 +797,14 @@ body.white-mode span a {
 body.white-mode .prev a, body.white-mode  .next a {
     color: var(--dark-text) !important;
 }
+
+body.dark-mode span a {
+    color: var(--light-text) !important;
+}
+
+body.dark-mode .prev a, body.dark-mode  .next a {
+    color: var(--light-text) !important;
+}
 .prev a::after {
 	content: "|";
 	padding-right: 0px;
