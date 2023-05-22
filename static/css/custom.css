@@ -793,6 +793,10 @@ body.dark-mode #post-list a {
     color:var(--light-text) !important;
 }
 
+body.dark-mode #post-list h2 {
+    color:#ffffffd1 !important;
+}
+
 body.dark-mode p a {
     color: var(--light-text) !important;
 }
