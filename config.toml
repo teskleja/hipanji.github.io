@@ -5,7 +5,7 @@ title = "Hi, I am Arhen."
 
 theme = "cactus-plus"
 
-googleAnalytics = "UA-138671457-1"
+# googleAnalytics = "UA-138671457-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
@@ -70,9 +70,9 @@ paginate = 3
 	subtitle404 = "You entered in the wrong room buddy! Go back."
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
+	iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "rounded"
+    socialIconStyle = "empty"
 
 # Add additional social link entries underneath
 [social]

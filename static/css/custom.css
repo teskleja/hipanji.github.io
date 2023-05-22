@@ -734,7 +734,8 @@ a {
 	}
 
 	#post-nav {
-		margin-top: 10px;
+		margin-top: 30px;
+
 		padding-top: 0px;
 	}
 
@@ -769,12 +770,20 @@ body.white-mode a, body.white-mode #title, body.white-mode #post-list a:hover, b
     color: var(--dark-text) !important;
 }
 
+body.white-mode #post-list a {
+    color: #0a0a0a !important
+}
+
 body.white-mode p a {
     color: var(--dark-text) !important;
 }
 
+
 body.dark-mode a, body.dark-mode #title, body.dark-mode #post-list a:hover, body.dark-mode #title:hover {
     color: var(--light-text) !important;
+}
+body.dark-mode #post-list a {
+    color:var(--light-text) !important;
 }
 
 body.dark-mode p a {
@@ -783,4 +792,16 @@ body.dark-mode p a {
 
 body.white-mode span a {
     color: var(--light-text) !important;
+}
+
+body.white-mode .prev a, body.white-mode  .next a {
+    color: var(--dark-text) !important;
+}
+.prev a::after {
+	content: "|";
+	padding-right: 0px;
+}
+
+#social p {
+	font-size: 14px;
 }
