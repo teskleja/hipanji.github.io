@@ -771,6 +771,10 @@ body.white-mode #post-list h2 {
 		color: #0c0c0ce8;
 		font-size: 12px;
 	}
+
+	.profile #wrapper-prof {
+		padding: 0px;
+	}
 }
 
 body.white-mode a, body.white-mode #title, body.white-mode #post-list a:hover, body.white-mode #title:hover {
@@ -825,3 +829,6 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 	font-size: 14px;
 }
 
+#footer a {
+	text-decoration:underline;
+}

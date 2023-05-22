@@ -6,10 +6,10 @@
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
     {{ else }}
-       © {{ now.Format "2006"}}. Crafted with &nbsp; &#10084; &nbsp; by {{ .Site.Params.Author }}
+       © {{ now.Format "2006"}}. Crafted with &nbsp; &#10084; &nbsp; by  <a href="https://twitter.com/@amQnese">{{ .Site.Params.Author }}</a>
     {{ end }}
     </p>
     <p class="small">
-      This website is fully open source. Fork now via <a href="https://github.com/arhen/arhen.dev">github</a>
+      This website is fully open source. Fork now via <a class="twitter" href="https://github.com/arhen/arhen.dev">github</a>
     </p>
 </footer>
