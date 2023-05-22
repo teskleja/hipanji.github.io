@@ -1,11 +1,17 @@
+{{ $image := resources.Get "images/avatar.jpeg" }}
+{{ $image := $image.Resize "128x128 webp" }}
+
+
 <div class="profile">
     <section id="wrapper-prof">
         <header id="header">
             <a href='{{ with .Site.Params.avatarLink }}{{ . }}{{ else }}{{ .Site.BaseURL }}now{{ end }}'>
 				<div class="image_placeholder">
-					<div class="placeholder" data-large="{{ .Site.BaseURL }}images/avatar.jpeg">
-						<img id="avatar" src="{{ .Site.BaseURL }}images/avatar.jpeg" class="img-small 2x lazy" alt="Profile Picture">
-					</div>
+					{{ with $image }}
+						<div class="placeholder" data-large="{{ .RelPermalink }}" data-alt="profile pict">
+							<img id="avatar" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"  class="img-small 2x lazy" alt="Profile Picture">
+						</div>
+					{{ end }}
 				</div>
             </a>
 			<br>

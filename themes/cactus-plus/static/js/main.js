@@ -74,11 +74,15 @@ window.onload = (event) => {
 					// Load large image
 					var largeImage = new Image();
 					largeImage.src = lazyParentImageDiv.getAttribute('data-large');
+					let alt = lazyParentImageDiv.getAttribute('data-alt');
 					largeImage.onload = function () {
 						largeImage.classList.add('loaded');
+						largeImage.alt = alt;
+						largeImage.setAttribute('aria-label', alt);
+            largeImage.setAttribute('width', largeImage.width);
 						smallImage.replaceWith(largeImage);
 					};
-
+          lazyParentImageDiv.setAttribute('style', 'border: none;');
 					largeImage.classList.remove("lazy");
 					if(entry.intersectionRatio > 0){
 						lazyImageObserver.unobserve(smallImage);

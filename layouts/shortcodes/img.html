@@ -1,13 +1,18 @@
-{{ if .Params.src }}
+{{ $image := resources.Get .Params.src }}
+{{ $smallImage := $image.Resize "1x1 q1 Box webp" }}
+{{ $newWidth := mul 0.7 $image.Width | int }}
+{{ $image = $image.Resize (print $newWidth "x q50 Box webp") }}
 
-{{ $src := resources.Get .Params.src}}
-{{ $ph := $src.Resize "2x q85 Box" }}
-{{ $pb := (mul 0.7 $src.Width) }}
+{{ $alt := "" }}
+{{ if eq .Params.title nil }}
+{{ else }}
+	{{ $alt = .Params.title }}
+{{ end }}
 
+{{ with $image }}
 <div class="image_placeholder">
-	<div class="placeholder" data-large="{{ $src.RelPermalink }}">
-		<img src="{{ $ph.RelPermalink }}" class="img-small lazy" alt={{ .Params.title }}>
+	<div class="placeholder" data-large="{{ .RelPermalink }}" data-alt="{{ $alt }}">
+		<img src="{{ $smallImage.RelPermalink  }}" width="{{ .Width }}" height="{{ .Height }}" class="img-small lazy" alt="{{ $alt }}">
 	</div>
 </div>
-
 {{ end }}
