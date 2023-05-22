@@ -50,9 +50,20 @@ document.addEventListener(
 	"DOMContentLoaded",
 	function() {
 		retina();
-		if (localStorage.getItem("preferredTheme") == "dark") {
-			setDarkMode(true);
-		}
+		var darkThemeSelected = localStorage.getItem('preferredTheme') === 'dark';
+
+    // Get buttons
+    var darkBtn = document.getElementById("darkBtn");
+    var lightBtn = document.getElementById("lightBtn");
+    
+    // Set their initial visibility based on the preferred theme
+    if (darkThemeSelected) {
+      darkBtn.style.display = "none";
+      lightBtn.style.display = "inline-block";
+    } else {
+      darkBtn.style.display = "inline-block";
+      lightBtn.style.display = "none";
+    }
 	},
 	false
 );
