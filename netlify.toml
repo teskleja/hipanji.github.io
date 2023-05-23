@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify -b $URL"
+command = "hugo --gc --minify -b https:://arhen.dev/"
 
 [build.environment]
   GO_VERSION = "1.20.2"
