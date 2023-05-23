@@ -143,6 +143,7 @@ h6 {
 }
 
 #post-body h1, #post-body h2, #post-body h3, #post-body h4{
+	font-weight: 700;
 	margin-top: 45px !important;
 	margin-bottom: 0px;
 }
