@@ -1,10 +1,10 @@
-<script src="{{ .Site.BaseURL }}js/main.js"></script>
+<script defer src="{{ .Site.BaseURL }}js/main.js"></script>
 
 {{ range .Site.Params.customJS }}
 {{ if strings.HasPrefix . "http" }}
-<script src="{{ . }}"></script>
+<script async src="{{ . }}"></script>
 {{ else }}
-<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+<script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
 {{ end }}
 {{ end }}
 
@@ -26,7 +26,7 @@ var _hmt = _hmt || [];
 {{ end }}
 
 <!-- Script netlify Identity Kicking back and login -->
-<script>
+<script async>
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
             if (!user) {

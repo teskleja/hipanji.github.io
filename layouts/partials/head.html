@@ -45,14 +45,11 @@
 			  rel="stylesheet preload prefetch"
 			  as="style"
 			  crossorigin="anonymous">
-		<!-- <link href="https://fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2" rel="preload" as="font"
-		crossorigin="crossorigin"> -->
+		<link 
+			rel="preload" 
+			href="{{ .Site.BaseURL }}/fonts/icons.woff" 
+			as="font" type="font/woff" crossorigin>
 
-		<!-- preload assets -->
-		<!-- <link href="http://fonts.gstatic.com/s/notoserif/v8/ga6Iaw1J5X9T9RW6j9bNTFAcaRi_bMQ.ttf" rel="preload" as="font"
-		crossorigin="crossorigin"> -->
-		<link rel="stylesheet"
-			  href="{{ .Site.BaseURL }}css/style.css">
 
 		<!-- static -->
 
@@ -65,7 +62,6 @@
 			<link rel="stylesheet"
 				  href="{{ .Site.BaseURL }}css/font-awesome.min.css">
 		</noscript>
-		<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css"> -->
 		{{ else }}
 		<link rel="preload"
 			  href="{{ .Site.BaseURL }}css/monosocialiconsfont.css"
@@ -77,8 +73,14 @@
 		</noscript>
 		{{ end }}
 
+		<link
+			 rel="stylesheet"
+			  href="{{ .Site.BaseURL }}css/style.css">
+		<link
+			 rel="stylesheet"
+			  href="{{ .Site.BaseURL }}css/custom.css">
+
 		{{ range .Site.Params.customCSS }}
-		<!--  if value has `http` then concrete with  {{ $.Site.BaseURL }}{{ . }}-->
 			{{ if strings.HasPrefix . "http" }}
 				<link rel="preload"
 					href="{{ . }}"
@@ -98,7 +100,6 @@
 						href="{{ . }}">
 				</noscript>
 			{{ end }}
-
 		{{ end }}
 
 		{{ if .Site.Params.enableRSS }}
