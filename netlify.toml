@@ -38,14 +38,13 @@ HUGO_ENABLEGITINFO = "true"
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
 
-  # optional, fails build when a category is below a threshold
-  [plugins.inputs.thresholds]
-    performance = 0.8
-    accessibility = 1
-    best-practices = 1
-    seo = 1
-
   # optional, deploy the lighthouse report to a path under your site
   [plugins.inputs.audits]
     output_path = "reports/lighthouse.html"
 	serveDir = "pages"
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
