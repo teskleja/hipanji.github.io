@@ -12,6 +12,11 @@ hasCJKLanguage = false
 # pagination
 paginate = 3
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 	author = "arhen"
 	description = "This is Arhen Personal Website, known as Rahmat H Slamet."
@@ -22,7 +27,7 @@ paginate = 3
 	enableRSS = false
 	enableToc = false
 
-	enableDisqus = true
+	enableDisqus = false
 	disqusShortname = "arhen"
 
 

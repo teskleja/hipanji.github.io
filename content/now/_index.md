@@ -28,7 +28,7 @@ Currently I'm an ESFP. Check [16 Personality](https://www.16personalities.com/) 
 
 ## Social Media
 
-linkedin, github, and twitter. 
+linkedin, github, and twitter.
 
 ## Coding activity
 
