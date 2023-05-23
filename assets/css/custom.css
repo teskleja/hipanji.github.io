@@ -158,7 +158,7 @@ h6 {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
-    max-width: 780px;
+    max-width: 765px;
     margin: 0 auto;
 }
 
@@ -205,15 +205,15 @@ h6 {
 }
 
 #wrapper.home {
-	padding: 0px 40px 9px 40px;
-	max-width: 780px;
+	padding: 0px 20px 9px 20px;
+	max-width: 765px;
 }
 
 #footer {
-    max-width: 780px;
+    max-width: 765px;
     margin: 0 auto;
-    margin-top: 40px;
-    padding: 0px 40px;
+    margin-top: 0px;
+    padding: 0px 20px;
 }
 
 #post-list li {
@@ -567,6 +567,20 @@ a {
 
 body.white-mode #post-list h2 {
 	color: #0c0c0ce8;
+}
+
+.profile #wrapper-prof {
+	padding: 50px 20px 0px 20px;
+	/* width: 765px; */
+}
+
+#wrapper {
+	padding: 20px 20px 20px;
+}
+
+#post-nav {
+	padding-top: 10px;
+
 }
 
 @media only screen and (max-device-width: 520px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
