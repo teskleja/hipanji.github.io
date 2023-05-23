@@ -71,13 +71,13 @@
 				  href="{{ .Site.BaseURL }}css/monosocialiconsfont.css">
 		</noscript>
 		{{ end }}
+		{{ $CSS := slice (resources.Get "css/style.css") (resources.Get "css/custom.css") | resources.Concat "css/bundle.css" }}
+		{{ $CSS := $CSS | resources.Minify | resources.Fingerprint }}
 
 		<link
 			 rel="stylesheet"
-			  href="{{ .Site.BaseURL }}css/style.css">
-		<link
-			 rel="stylesheet"
-			  href="{{ .Site.BaseURL }}css/custom.css">
+			 href="{{ $CSS.Permalink }}"
+		>
 
 		{{ range .Site.Params.customCSS }}
 			{{ if strings.HasPrefix . "http" }}
