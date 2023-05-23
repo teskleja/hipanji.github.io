@@ -587,14 +587,14 @@ post-list a.dark-mode {
     margin-top: 40px;
 }
 
-#post-nav span {
+/* #post-nav span {
     -webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     -ms-transition: all 0.1s linear;
     -o-transition: all 0.1s linear;
     transition: all 0.1s linear;
     position: relative;
-}
+} */
 
 #post-nav span .arrow {
     position: relative;
