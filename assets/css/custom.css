@@ -909,24 +909,26 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 	text-decoration: underline;
 }
 
-pre {
-	background-color: #f5f2f0 !important;
-}
 
-pre code {
+/* pre code {
 	background: none !important;
 	font-size: 12px !important;
-}
+} */
 
 code {
 	/* background-color: #d7d !important; */
+	font-size: 1px;
 	padding: 1px 3px;
 	color: #dc8a2d;
-	background-color: #f5f2f0 !important;
+}
+
+pre > code {
+	/* background-color: #d7d !important; */
+	font-size: 12px !important;
 }
 
 body.dark-mode pre code {
-	color: #767676;
+	color: #ebebeb;
 	background: none !important;
 }
 
@@ -939,6 +941,7 @@ body.dark-mode code {
 	color: #dc8a2d;
 	background-color: #262626 !important;
 }
+
 body.dark-mode #post-list > li > a:hover {
 	color: #cdcdcd !important;
 }
