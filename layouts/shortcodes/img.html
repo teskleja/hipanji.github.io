@@ -1,7 +1,8 @@
 {{ $image := resources.Get .Params.src }}
 {{ $smallImage := $image.Resize "1x1 q1 Box webp" }}
 {{ $newWidth := mul 0.7 $image.Width | int }}
-{{ $image = $image.Resize (print $newWidth "x q50 Box webp") }}
+{{ $newHeight := mul 0.7 $image.Height | int }}
+{{ $image = $image.Resize (print $newWidth "x" $newHeight " q50 Box webp") }}
 
 {{ $alt := "" }}
 {{ if eq .Params.title nil }}

@@ -89,8 +89,10 @@ window.onload = (event) => {
 						largeImage.classList.add('loaded');
 						largeImage.alt = alt;
 						largeImage.setAttribute('aria-label', alt);
-            largeImage.setAttribute('width', largeImage.width);
-            largeImage.setAttribute('height', largeImage.height);
+            //  get lazyParentImageDiv width
+            console.log(lazyParentImageDiv.offsetWidth, lazyParentImageDiv.offsetHeight);
+            largeImage.setAttribute('width', lazyParentImageDiv.offsetWidth);
+            largeImage.setAttribute('height', '100%');
 						smallImage.replaceWith(largeImage);
 					};
           lazyParentImageDiv.setAttribute('style', 'border: none;');
