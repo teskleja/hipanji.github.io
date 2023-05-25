@@ -2,7 +2,6 @@ module.exports = {
   plugins: {
     '@fullhuman/postcss-purgecss': {
       content: ['themes/cactus-plus/layouts/**/*.html', 'layouts/**/*.html'],
-      css: ['assets/css/*.css'],
       whitelist: [
         'highlight',
         'language-bash',

@@ -1,6 +1,6 @@
 {{ $image := resources.Get "images/avatar.jpeg" }}
-{{ $image := $image.Resize "195x195 q50 Box webp" }}
-
+{{ $smallImage := $image.Resize "1x1 q1 Box webp" }}
+{{ $image = $image.Resize (print $newWidth "195x195 q50 Box webp") }}
 
 <div class="profile">
     <section id="wrapper-prof">
@@ -9,7 +9,7 @@
 				<div class="image_placeholder">
 					{{ with $image }}
 						<div class="placeholder" data-large="{{ .RelPermalink }}" data-alt="profile pict">
-							<img id="avatar" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"  class="img-small 2x lazy" alt="Profile Picture">
+							<img id="avatar" src="{{ $smallImage.RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"  class="img-small 2x lazy" alt="Profile Picture" loading="lazy">
 						</div>
 					{{ end }}
 				</div>
