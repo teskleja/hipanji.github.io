@@ -1,6 +1,6 @@
 {{ $image := resources.Get "images/avatar.jpeg" }}
 {{ $smallImage := $image.Resize "1x1 q1 Box webp" }}
-{{ $image = $image.Resize (print $newWidth "195x195 q50 Box webp") }}
+{{ $image = $image.Resize (print $image "195x195 q50 Box webp") }}
 
 <div class="profile">
     <section id="wrapper-prof">
