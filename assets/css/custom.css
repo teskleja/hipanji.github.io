@@ -488,7 +488,7 @@ code{
 
 
 blockquote{
-	border-left: 2px solid #e0e0e0;
+	border-left: 2px solid #bd792f;
 	padding-left: 1.2rem;
 	margin-left: -0.9rem;
 	line-height: 2.2rem;
@@ -916,15 +916,22 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 	font-size: 12px !important;
 } */
 
-code {
+body.dark-mode code {
 	/* background-color: #d7d !important; */
-	font-size: 1px;
+	font-size: 16px;
+	padding: 1px 3px;
+	color: #dc8a2d;
+}
+
+body.white-mode code {
+	background-color: #f1f3f4;
+	font-size: 16px;
 	padding: 1px 3px;
 	color: #dc8a2d;
 }
 
 pre > code {
-	/* background-color: #d7d !important; */
+	background-color: unset !important;
 	font-size: 12px !important;
 }
 
@@ -940,7 +947,7 @@ body.dark-mode .token.operator {
 body.dark-mode code {
 	padding: 1px 3px;
 	color: #dc8a2d;
-	background-color: #262626 !important;
+	background-color: #323232 !important;
 }
 
 body.dark-mode #post-list > li > a:hover {
@@ -971,4 +978,19 @@ body.dark-mode #post-nav span> a {
 
 #post-nav span > a > span {
 	padding: 0px !important;
+}
+
+.highlight {
+	margin-right: -20px !important;
+	margin-left: -20px !important;
+}
+
+.highlight pre {
+	border-radius: unset !important;
+	background-color: #252a37 !important;
+}
+
+#post-body h1::before, #post-body h2::before, #post-body h3::before, #post-body h4::before, #post-body h5::before, #post-body h6::before {
+	content: "# ";
+	color: #bd792f;
 }
