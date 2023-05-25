@@ -2,6 +2,7 @@ module.exports = {
   plugins: {
     '@fullhuman/postcss-purgecss': {
       content: ['themes/cactus-plus/layouts/**/*.html', 'layouts/**/*.html'],
+      css: ['assets/css/*.css'],
       whitelist: [
         'highlight',
         'language-bash',
@@ -11,10 +12,11 @@ module.exports = {
         'h3',
         'h4',
         'ul',
-        'li'
-      ]
+        'li',
+      ],
+      whitelistPatterns: [/^image_placeholder$/, /^placeholder$/, /^loaded$/, /\.placeholder img\.loaded/],
     },
     autoprefixer: {},
-    cssnano: { preset: 'default' }
+    // cssnano: { preset: 'default' }
   }
 };

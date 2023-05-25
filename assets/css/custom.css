@@ -291,6 +291,7 @@ nav.main-nav a.cta {
 	background: #66aee2;
 	background: var(--theme-top-bar-write-background, #66aee2);
 }
+/* purgecss start ignore */
 
 /* disqus */
 
@@ -918,17 +919,18 @@ body.dark-mode .prev a, body.dark-mode  .next a {
 
 body.dark-mode code {
 	/* background-color: #d7d !important; */
-	font-size: 16px;
+	font-size: 14px;
 	padding: 1px 3px;
-	color: #dc8a2d;
+	color: #bd792f;
 }
 
 body.white-mode code {
 	background-color: #f1f3f4;
-	font-size: 16px;
+	font-size: 14px;
 	padding: 1px 3px;
-	color: #dc8a2d;
+	color: #bd792f;
 }
+
 
 pre > code {
 	background-color: unset !important;
@@ -938,6 +940,10 @@ pre > code {
 body.dark-mode pre code {
 	color: #ebebeb;
 	background: none !important;
+}
+
+body.white-mode pre code {
+	color: #ebebeb;
 }
 
 body.dark-mode .token.operator {
@@ -994,3 +1000,5 @@ body.dark-mode #post-nav span> a {
 	content: "# ";
 	color: #bd792f;
 }
+
+/* purgecss end ignore */
