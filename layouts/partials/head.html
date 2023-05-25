@@ -72,7 +72,7 @@
 		</noscript>
 		{{ end }}
 		{{ $CSS := slice (resources.Get "css/style.css") (resources.Get "css/custom.css") | resources.Concat "css/bundle.css" }}
-		{{ $CSS := $CSS | resources.Minify | resources.Fingerprint }}
+		{{ $CSS := $CSS | postCSS | resources.Minify | resources.Fingerprint }}
 
 		<link
 			 rel="stylesheet"

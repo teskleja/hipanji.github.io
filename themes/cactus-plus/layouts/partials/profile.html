@@ -1,5 +1,5 @@
 {{ $image := resources.Get "images/avatar.jpeg" }}
-{{ $image := $image.Resize "195x195 webp" }}
+{{ $image := $image.Resize "195x195 q50 Box webp" }}
 
 
 <div class="profile">
