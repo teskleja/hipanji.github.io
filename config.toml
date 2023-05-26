@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "https://www.arhen.dev/"
+baseurl = "https://pandjie.netlify.app/"
 languageCode = "id-ID"
-title = "Hi, I am Arhen."
+title = "Hi, I am Panji."
 
 theme = "cactus-plus"
 
-# googleAnalytics = "UA-138671457-1"
+# googleAnalytics = "UA-00000000-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
@@ -18,18 +18,18 @@ paginate = 3
       unsafe = true
 
 [params]
-	author = "arhen"
-	description = "This is Arhen Personal Website, known as Rahmat H Slamet."
+	author = "panji"
+	description = "This is Panji Personal Website, known as Jipang."
 	bio = "'Sharing is Caring'"
-	desc = ["Tech Artisan", "Software Engineer", "Tech Lead", "Gamer"]
+	desc = ["Amateur Wordsmith", "First Time Father", "Cat Slave"]
 
-	twitter = "AmQnese"
+	instagram = "panjipeg"
 
 	enableRSS = false
 	enableToc = false
 
 	enableDisqus = false
-	disqusShortname = "arhen"
+	disqusShortname = "panji"
 
 
 	enableSummary = true
@@ -37,7 +37,7 @@ paginate = 3
 	useDescriptionReplaceSummary = true
 
 
-	enableGoogleAnalytics = true
+	enableGoogleAnalytics = false
 
 	enableTwitterCard = true
 	# The url for twitter card image, default is avatar.png in static/images directory
@@ -82,6 +82,6 @@ paginate = 3
 
 # Add additional social link entries underneath
 [social]
-	twitter = "https://www.twitter.com/AmQnese"
-	github = "https://www.github.com/arhen"
-	linkedin = "https://www.linkedin.com/in/rahmadslamet"
+	twitter = "https://www.twitter.com/jipanjie"
+	github = "https://www.github.com/panjiweb"
+	linkedin = "https://www.linkedin.com/in/"
