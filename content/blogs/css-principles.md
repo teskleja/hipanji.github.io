@@ -1,93 +1,19 @@
 ---
-title: CSS Principles
-description: An exploration into CSS principles
+title: The Joy of Becoming a First-Time Father
+description: I am just feeling so happy to share this story
 date: 2023-05-21T16:11:08.123Z
 tags:
-  - programming
+  - story
 ---
 
-In a recent [tweet conversation](https://twitter.com/wesbos/status/1661029788260212739?s=20) in a surprising turn, more than half of the respondents guessed incorrectly about
+Becoming a first-time father is a life-altering experience, one that brings unparalleled joy and a sense of fulfillment. From the moment you hold your newborn son in your arms, to cherishing the love and support of a beautiful wife, every aspect of this journey fills life with immeasurable happiness and gratitude.
 
-> "What color is 'Hello World!'?"
+Welcoming a son into the world is an indescribable joy. Watching him grow, from his first smile to his first steps, fills every day with wonder and excitement. As a first-time father, seeing my son's innocent face and feeling his tiny hand wrap around my finger instills a profound sense of purpose and responsibility. His presence brings immeasurable happiness, and the bond we share is a treasure that grows stronger with every passing day.
 
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Without cheating - what color is the &lt;p&gt; tag&#39;s text?<br><br>&lt;p class=&quot;hello&quot;&gt;Hello&lt;/p&gt;<br>&lt;style&gt;<br> body { color: red; }<br> p { color: green; }<br> .hello { color: unset; }<br>&lt;/style&gt;</p>&mdash; Wes Bos (@wesbos) <a href="https://twitter.com/wesbos/status/1661029788260212739?ref_src=twsrc%5Etfw">May 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Behind every fulfilled first-time father stands a loving and supportive wife. The joy of fatherhood is amplified by the companionship and partnership of a beautiful wife. Sharing the journey of parenthood together creates a deep sense of connection, strengthening the bond between us. Her unwavering support and understanding nurture an environment of love and happiness, making each day as a father a true blessing.
 
-This sheds light on a wider issue: the `unset` keyword in CSS styling is not widely understood or used. The `unset` keyword can be used in CSS to make a property inherit its value from its parent element, or to revert to its initial value if it doesn't inherit one.
+Becoming a father introduces a fresh perspective on life. Every small moment holds newfound significance. Witnessing my son's laughter, his innocent curiosity, and his milestones fills my heart with immense joy. Through his eyes, I rediscover the wonder and magic in the simplest of things—a blooming flower, a colorful butterfly, or the sound of raindrops. Together, we embark on adventures, explore the world, and create memories that will last a lifetime.
 
-The use of the `unset` keyword was a common approach in the early days of CSS, especially when styling elements without the aid of current CSS utility frameworks such as Tailwind or Bootstrap.
+The journey of fatherhood is not without its challenges, but the rewards far outweigh the trials. It teaches me patience, resilience, and selflessness. Seeing my son's growth and development, knowing that I have a part in shaping his future, is profoundly fulfilling. Each milestone achieved, whether big or small, fills me with pride and reinforces my commitment to providing a nurturing environment. Embracing the joy of fatherhood and cherishing the beauty of family life enriches every aspect of my existence.
 
-In the context of these modern frameworks, it's more typical to override or reset the style directly by assigning new values. This method provides web developers with more granular control over each element's appearance.
-
-```html
-/* ... prevs styles */
-<body>
-  <span>
-    // overide the color of element using new value
-    <p class="welcome" style="color: green">Hello World!</p>
-  </span>
-</body>
-```
-
-However, using `unset` can lead to more consistent behaviour across different elements, as it avoids the need to define any constant value again. It appears that many developers overlooked the basic CSS principle of inheritance, which can provide a lot of power and flexibility when used effectively. However, the caveat is that using `unset` in reusable components in modern development can lead to reduced readability and increased complexity.
-
-```html
-<style>
-    .container { font-size: 20px; }
-    .special { font-size: 24px; }
-</style>
-
-<div class="container">
-    <p>This is some text in the container.</p>
-    <p class="special">This is some special text.</p>
-    <div>
-        <p>This is nested text.</p>
-    </div>
-</div>
-```
-
-## Inheritance, Specificity, and the Box Model
-
-Understanding basic CSS principles like inheritance, specificity, and the box model is essential. These concepts are crucial for applying styles, resolving conflicts, and rendering elements on web pages. Since we already discussed inheritance, let's look at the specificity and box model.
-
-Let's break down others principles:
-
-### Specificity
-
-Specificity is a weight that is applied to a given CSS declaration, influenced by the number of each selector type in the matching selector. When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted, inheritance is a separate process. For example:
-
-```css
-#content h1 {
-    color: blue;
-}
-
-h1 {
-    color: red;
-}
-```
-
-In this case, if there's an `h1` inside an element with the id content, it will be blue, not red, because the first selector is more specific.
-
-```html
-<div id="content">
-    <h1>Heading</h1>
-</div>
-```
-
-### Box Model
-
-The CSS box model is essentially a box that wraps around HTML elements, and it consists of: margins, borders, padding, and the actual content. For example, when you set the width and height of an element, you're setting the width and height of the content area. To calculate the full size of an element, you also need to add padding, borders and margins.
-
-```css
-div {
-    width: 300px;
-    padding: 10px;
-    border: 5px solid black;
-    margin: 20px;
-}
-```
-
-Here, the actual space the `div` takes up is more than 300px due to the padding, border, and margin. The total width of the element is 370px. So simple yet some people still get it wrong.
-
-## Conslusion
-
-Despite these challenges, it remains beneficial to have an understanding of the basic principles of CSS. Grasping foundational CSS principles like inheritance, specificity, and the box model is crucial. These concepts play a significant role in applying styles, resolving style conflicts, and rendering elements on web pages. A good understanding of these principles can greatly improve a developer's efficiency and the quality of their work.
+Becoming a first-time father is a life-altering experience, filled with boundless joy and an overwhelming sense of gratitude. The love of a beautiful wife, the presence of a son, and the wonders of everyday life combine to create a tapestry of happiness. It is a journey worth embracing, as it enriches not only our lives but also the lives of those around us.
