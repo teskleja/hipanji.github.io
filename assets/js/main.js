@@ -63,6 +63,34 @@ document.addEventListener(
       darkBtn.style.display = "inline-block";
       lightBtn.style.display = "none";
     }
+
+    // rolling bio
+    var roles = ["Tech Artisan", "Software Engineer", "Gamer"].map(role => role.replace(/ /g, '\u00A0'));
+    var emojis = ["👨‍🎨", "💻", "🎮"];
+    var roleIndex = 0;
+    var charIndex = 0;
+
+    function typeRole() {
+        if (charIndex < roles[roleIndex].length) {
+            document.getElementById("role-desc").innerText += roles[roleIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(typeRole, 100);
+        } else if (charIndex === roles[roleIndex].length) {
+            document.getElementById("role-desc").innerText += ' ' + emojis[roleIndex];
+            charIndex++;
+            setTimeout(typeRole, 0);
+        } else {
+            // Pause before starting next role
+            setTimeout(function() {
+                document.getElementById("role-desc").innerText = '';
+                roleIndex = (roleIndex + 1) % roles.length;
+                charIndex = 0;
+                typeRole();
+            }, 2000); // Adjust pause duration here
+        }
+    }
+
+    typeRole();
 	},
 	false
 );

@@ -513,6 +513,10 @@ blockquote{
     blink-caret .75s step-end infinite;
 }
 
+#role-desc {
+	color: #bd792f;
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }

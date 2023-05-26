@@ -21,6 +21,7 @@ paginate = 3
 	author = "arhen"
 	description = "This is Arhen Personal Website, known as Rahmat H Slamet."
 	bio = "'Sharing is Caring'"
+	desc = ["Tech Artisan", "Software Engineer", "Tech Lead", "Gamer"]
 
 	twitter = "AmQnese"
 
