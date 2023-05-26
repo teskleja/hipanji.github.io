@@ -1,53 +1,18 @@
 ---
-title: CTO ala nak-nak setartap.
-description: Belajar membangun bisnis itu susah susah senang. Apalagi milik
-  sendiri, kudu banyak sabar dan tawakkal.
+title: The Art of Decluttering, Simplicity and Mindful Consumption
+description: Embracing the lowkey lifestyle
 date: 2021-11-21T11:16:46.660Z
 tags:
-  - life
+  - Story
 ---
-Yang dipelajari saat menjadi "CTO" ala-ala nak startup. Saya termasuk satu dari sekian "Anak IT" yang setelah lulus, tidak memilih untuk mencicipi kerja di "perusahaan startup" yang sudah ada. Padahal tidak sedikit yang menginginkan hal itu setelah lulus dari bangku perkuliahan.
+In a world of material abundance, decluttering offers a path to simplicity and mindful living. By focusing on what we truly need and appreciating what we have, we can break free from the cycle of reckless consumption. Experts and theories provide valuable insights into decluttering as a means to keep our lives simple and cultivate a mindful approach to acquiring possessions.
 
-Membuat perusahaan sendiri menjadi jalan yang dipilih. Sempat ragu, tapi itulah jalan yang sudah dipahat sejak semester 5. Sayang jika menyerah begitu saja. Berikut beberapa nilai yang saya dapat setelah kurang-lebih 5 tahun berada di posisi ini.
+To combat reckless buying and cultivate a more intentional mindset, it is essential to understand the psychology behind consumerism. The hedonic treadmill phenomenon suggests that the initial excitement of acquiring new possessions fades quickly, leading to a constant desire for more. By recognizing this pattern and its potential negative impact on our well-being and the environment, we can shift our focus towards conscious consumption.
 
-## **Belajar Otodidak butuh niat dan usaha.**
+Decluttering involves the intentional removal of excess possessions and the cultivation of a simplified living space. Start by assessing your belongings and identifying items that no longer serve a purpose or bring genuine joy. Embrace a minimalist mindset, focusing on quality over quantity, and prioritize experiences and relationships over material possessions. Adopting a "one in, one out" approach can help maintain balance and prevent unnecessary accumulation.
 
-Susah nggk? wah, banget. Belajar sesuatu tanpa bimbingan adalah hal yang hampir membuat banyak orang menyerah menggapai impian. Tentukan niat dan tujuan di awal membuat banyak hal menjadi mudah dan jelas. Sisanya yah usaha.
+Minimalism, as espoused by experts such as Joshua Fields Millburn and Ryan Nicodemus, promotes intentional living by decluttering physical and mental spaces. The philosophy encourages individuals to let go of excessive possessions, streamline their environment, and prioritize what truly matters. Minimalism teaches us to detach ourselves from materialistic cravings, find contentment in the present moment, and redirect our energy towards personal growth and experiences.
 
-## **Temukan Pasangan.**
+Experts in decluttering and minimalist lifestyles provide valuable insights into embracing simplicity. Marie Kondo, renowned decluttering expert, emphasizes the importance of surrounding ourselves only with items that spark joy. Leo Babauta, a prominent minimalist author, encourages the practice of mindfulness and conscious decision-making when it comes to acquiring possessions. Their teachings reinforce the idea that decluttering is not just about physical spaces but also an intentional mindset shift.
 
-Bukan pasangan sehidup semati ya, haha. Tapi se-visi se-misi. Bisa lebih dari satu. Saya bersyukur menemukan orang-orang hebat.
-
-Bersama itu kuat. Tapi yang lebih penting, bersama itu membuat sedihnya terbagi-bagi. Kita nggk sendiri saat susah.
-
-## **Tentukan porsi setiap orang.**
-
-Penting untuk meminimalisir "masalah terkait perut dan kesibukan" dikemudian hari. Tentukan porsi kerja dan keuntungan sejak dini membuat semuanya semakin tenang saat bekerja. Tidak ada yang lebih sibuk, tidak ada yang lebih untung. Adil dan sehat.
-
-## **Belajar bisnis, hidup tidak jauh dari jual&beli.**
-
-Walau saya berkutat dengan divisi teknologi, tidak jarang ikut terlibat dalam pengambilan keputusan dengan client. Membangun sesuatu dengan melihat perspektif bisnis membuat kita tidak lebih besar pasak daripada tiang.
-
-## **Memimpin bukan bakat lahir.**
-
-Saat awal merintis, saya pimpin tim beranggota 3 orang. Ribet, karena saya tidak lebih jago dari mereka. Apa yang membuat beda? Inisiatif. Seni berbicara dan berpendapat jadi kunci saat mengarahkan tim. Pengalaman jadi kunci selama apa kita bertahan.
-
-## **Memulai dari yang kecil.**
-
-Di awal sering kok kita dapat "Makasih Mas". Kerjain projek web lumayan banyak, eh clientnya menghilang. Kerjain projek 3 hari 3 malam hanya dikash 500rb dibagi 3 orang. Saya tidak mewajari itu, tapi yang penting mulai aja dulu. Nanti naik sendiri.
-
-## **Menemukan mentor, lebih baik.**
-
-Tidak salah belajar dari pengalaman orang lain. Banyak banyak bergaul dan melibas semua ilmu yang diberikan lebih membantu saat bergerak maju tanpa arah. Mana baik, mana tepat didapat banyak dari pengalaman, sisanya teori dengan banyak baca.
-
-Masih banyak yang ingin saya cari tahu, ingin saya dapat. Kami sekarang ber-8 kadang lebih karena freelancer yang datang dan pergi. Masih kecil, tapi jalan perlahan-lahan. Kata orang 5 tahun akan keliatan susahnya, doakan kami bisa tetap bertahan. Kami di [www.upanastudio.com](https://upanastudio.com)
-
-Saya bercerita pengalaman pribadi tentang ini di beberapa di podcast teman yang bisa di akses di spotify.
-
-Dari mas [@DevMuslimId](https://twitter.com/@DevMuslimId), <https://open.spotify.com/episode/6WQ3jmfvrKxP1OP6xqWTV5?si=OZgJKBhvSNqBuacAZn4FEg>
-
-Atau di Programmer Awam ,
-
-<https://open.spotify.com/episode/3vX2JCgc1yZBqMMdAljcxr?si=iiLNJJrxSze60BNRbrhOFg>
-
-Semoga membantu!
+Decluttering serves as a powerful tool to simplify our lives and adopt a mindful approach to consumption. By recognizing the psychology behind consumerism, practicing the art of decluttering, and embracing minimalist principles, we can break free from reckless buying habits and focus on appreciating what we have in the present moment. Embracing simplicity fosters contentment, personal growth, and a greater sense of well-being.
