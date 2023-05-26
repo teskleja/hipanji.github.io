@@ -1,37 +1,12 @@
 ---
 title: Now
-description: Dscribe what i'm doing right now.
+description: 
 date: 2019-04-20T14:02:37+02:00
 ---
-Inspired by [Derek Sivers](https://sivers.org/now). This page may give you general information about me.
+Hi! I am Panji, and I take great pleasure in the skillful craft of wordsmithing. Through the art of crafting puns and the power of writing, I find a delightful avenue for expressing my thoughts and ideas. The sheer joy that stems from playing with words is something I cherish deeply.
 
-## Skills
+Writing serves as an outlet for my boundless creativity, enabling me to delve into new realms of imagination and share my unique perspective with the world. It is a medium through which I can effectively communicate my ideas, thoughts, and emotions, leaving an indelible impact on readers.
 
-I am proficiency working on Unix/Linux environment. I have 8+ year experience in several programming languages such as PHP, C#, Javascript, Ruby and Python for work requirements.
+One of the most gratifying aspects of writing is the ability to channel my genuine enthusiasm for the subjects that captivate me. Whether I'm exploring thought-provoking topics or diving into my passions, the written word becomes a vessel to share my unwavering passion with others.
 
-## Work
-
-Currently working as Tech Lead at **[Maleo Creative Agency](https://maleo.agency)** and **[Surge](surgeinteractive.asia)**, Former Tech lead at **[Upana Studio](https://www.upanastudio.com)** and previously worked as Team Lead of Backend Developer at [Sehati.co](https://Sehati.co)
-
-## Relationship
-
-.....
-
-## Personality
-
-Currently I'm an ESFP. Check [16 Personality](https://www.16personalities.com/) for more information.
-
-## Book
-
--﻿ Talking to Strangers by Malcolm Gladwell
--﻿ Atomic Habits by James Clear
-
-## Social Media
-
-linkedin, github, and twitter.
-
-## Coding activity
-
-<br>
-
-<figure><embed src="https://wakatime.com/share/@c5b47ecb-a59c-4d51-879a-5ed51b3b57ee/3d6095f0-d128-4e2f-af41-7252da198025.svg"></embed></figure>
+Join me on this journey of words as I continue to explore the realm of writing, sharing my creativity, and fostering connections through the power of language.
