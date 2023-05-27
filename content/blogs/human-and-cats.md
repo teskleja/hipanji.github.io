@@ -1,5 +1,5 @@
 ---
-title: Humans and Cats, A Source of Happiness and Stress Relief
+title: Human and Cats, Between Happiness and Stress Relief
 description: Not gonna lie, they are just way cute
 date: 2023-05-20T08:42:14.995Z
 tags:
