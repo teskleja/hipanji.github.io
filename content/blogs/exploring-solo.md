@@ -7,7 +7,7 @@ tags:
 ---
 {{< img src="images/uploads/solo1.jpg" alt="Kota Solo" >}}
 
-Every Saturday and Sunday, my little son, my wife, and I have developed a new habit of embarking on morning walks through the vibrant streets of Solo. This enchanting city, also known as Solo, offers a delightful ambiance that we have come to cherish. Although the weather can be a tad scorching at times, I anticipate a decline in temperature as we approach the month of June.
+Every Saturday and Sunday, my little son, my wife, and I have developed a new habit of embarking on morning walks through the vibrant streets of Solo. This enchanting city, also known as Solo, offers a delightful ambiance that we have come to cherish. Although the weather can be a tad scorching at times, I anticipate a decline in temperature as we approach the month of June. 
 
 One of the most captivating aspects that immediately catches my attention is the pedestrian infrastructure. The city has invested in well-maintained walkways adorned with beautiful trees, offering a respite from the sun's intense rays. As we stroll along these pathways, a sense of tranquility envelops us. However, amidst the serene pedestrian zones, we often encounter the occasional disruption caused by motorcycles brazenly zooming through these designated areas. Such occurrences force us to sidestep and make way for these impromptu motorists.
 
