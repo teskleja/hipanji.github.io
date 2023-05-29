@@ -1,7 +1,7 @@
 ---
 title: Exploring Solo, A Journey through Walkable Streets and Safety
 description: Here is a glimpse of how we enjoy the city
-date: 2023-05-29T16:11:08.123Z
+date: 2023-05-28T16:11:08.123Z
 tags:
   - story
 ---
