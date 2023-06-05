@@ -1,22 +1,20 @@
 ---
 title: Exploring Solo, A Journey through Walkable Streets and Safety
 description: Here is a glimpse of how we enjoy the city
-date: 2023-05-28T16:11:08.123Z
+date: 2023-06-1T16:11:08.123Z
 tags:
   - story
 ---
 {{< img src="images/uploads/solo1.jpg" alt="Kota Solo" >}}
 
-Every Saturday and Sunday, my little son, my wife, and I have developed a new habit of embarking on morning walks through the vibrant streets of Solo. This enchanting city, also known as Solo, offers a delightful ambiance that we have come to cherish. Although the weather can be a tad scorching at times, I anticipate a decline in temperature as we approach the month of June. 
+On this sunny day in June 2023, my two friends and I embarked on an exciting adventure through the captivating city of Solo. We strolled down the bustling streets, eager to discover the hidden gems that awaited us along the famous Slamet Riyadi street. This was a rare opportunity for us to explore together, as our busy schedules often kept us apart.
 
-One of the most captivating aspects that immediately catches my attention is the pedestrian infrastructure. The city has invested in well-maintained walkways adorned with beautiful trees, offering a respite from the sun's intense rays. As we stroll along these pathways, a sense of tranquility envelops us. However, amidst the serene pedestrian zones, we often encounter the occasional disruption caused by motorcycles brazenly zooming through these designated areas. Such occurrences force us to sidestep and make way for these impromptu motorists.
+With the city celebrating a public holiday, we had the luxury of time on our side. Our first stop was the renowned Warung Padang Cahaya. Little did we know that this humble eatery would leave an indelible mark on our taste buds. The savory aroma of Padang cuisine tantalized our senses, and we savored every bite of the delicious dishes that were served before us. The best part? The prices were unbelievably affordable, adding to the delight of our culinary experience.
 
-{{< img src="images/uploads/solo2.jpg" alt="Gladak" >}}
+Feeling satisfied and energized, we continued our journey, venturing into various corners of the city. Our curiosity led us to the enchanting neighborhood of Kauman. As we stepped into this historical district, we were greeted by a myriad of ancient buildings that stood as testament to Solo's rich heritage. The intricate architecture and ornate details fascinated us, and we couldn't help but marvel at the fusion of the city's ancient charm with its modern aspirations.
 
-Coincidentally, our walks coincide with the upcoming Waisak day celebration. The decorations surrounding Gladak, a prominent neighborhood in Solo, emanate an ethereal aura of festivity, with vibrant temples and symbols that honor the sacred day. It's truly a remarkable sight, fostering a sense of connection between the city and the auspicious occasion.
+The exploration didn't stop there. Our wanderlust led us to Ngarsopuro, where more architectural wonders awaited us. The beautiful buildings surrounding this area revealed the city's continuous efforts to embrace modernity while preserving its cultural roots. The juxtaposition of the old and the new created a harmonious blend that made us proud to be a part of this vibrant city.
 
-Our walks usually span over 5000 steps, which is a great way for our family to kickstart a healthier lifestyle. Given that we don't engage in much exercise, this routine is a welcomed change. After our invigorating walk, we often find ourselves craving a satisfying breakfast. To satiate our appetites, we head towards the nearest food establishments, be it a familiar McDonald's or a crispy KFC joint. I know we should be conscious of burning calories, but indulging in a hearty breakfast now and then brings us immeasurable joy.
+As the day drew to a close, we found solace in one of the cozy coffee shops scattered throughout Solo. With steaming cups in our hands, we relaxed and reminisced about our adventures. The coffee shops served as the perfect backdrop for us to share our stories, laughter, and dreams. The friendly atmosphere and warm hospitality of the locals made us feel right at home.
 
-Solo, with its efficient public transportation system and amiable locals, has truly captured our hearts. The city boasts a network of buses, taxis, and trains that make commuting a breeze. The residents we encounter during our walks greet us with warm smiles, reinforcing the city's reputation for hospitality. However, if there's one thing I wish for Solo, it is an abundance of trees. While the pedestrian pathways provide shade, the addition of more trees would enhance the city's greenery and further contribute to the aesthetic appeal.
-
-This city fortunately has proven to be a delightful destination for both residents and visitors alike. Its walkable streets, though occasionally marred by motorbikes, offer an inviting space to explore the city's hidden gems. The upcoming Waisak day celebrations and the city's commitment to public transportation only add to its charm. As my family and I continue our weekend tradition, we are grateful for the opportunity to witness Solo's beauty unfold with every step we take.
+Kota Solo, a city that never ceased to amaze us, held an everlasting allure. Its dynamic streets, tantalizing cuisine, and remarkable architecture were just a few aspects that made us fall in love with this place. As we bid farewell to the city for now, we promised ourselves that we would return to Solo to create more beautiful memories and to continue unraveling the captivating secrets it held within its streets.
