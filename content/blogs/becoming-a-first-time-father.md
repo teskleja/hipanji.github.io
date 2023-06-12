@@ -6,7 +6,7 @@ tags:
   - story
 ---
 
-Seorang ayah adalah pahlawan tanpa tanda jasa yang berperan penting dalam kehidupan seorang anak. Ia adalah sosok yang memberikan cinta, arahan, dan perlindungan. Menjadi seorang ayah adalah anugerah yang luar biasa, karena di tangan seorang ayah terletak kekuatan untuk membentuk masa depan yang cerah bagi anaknya. Dalam kehidupan ini, kebahagiaan seorang ayah tak terbantahkan, dan itu datang dari ikatan yang tak tergantikan yang terbentuk antara dirinya dan sang anak.
+Seorang ayah adalah pahlawan tanpa tanda jasa yang berperan penting dalam kehidupan seorang anak, setelah ibu tentunya.. Ia adalah sosok yang memberikan cinta, arahan, dan perlindungan. Menjadi seorang ayah adalah anugerah yang luar biasa, karena di tangan seorang ayah terletak kekuatan untuk membentuk masa depan yang cerah bagi anaknya. Dalam kehidupan ini, kebahagiaan seorang ayah tak terbantahkan, dan itu datang dari ikatan yang tak tergantikan yang terbentuk antara dirinya dan sang anak.
 
 Saat seorang ayah memandang wajah anaknya yang baru lahir, ada getaran kebahagiaan yang mengalir di dalam dadanya. Ia merasakan tanggung jawab besar yang ada di pundaknya untuk menjadi teladan yang baik bagi sang buah hati. Setiap langkah yang diambilnya, setiap kata yang diucapkannya, merupakan upaya untuk memberikan contoh yang baik dan menginspirasi anaknya. Kebahagiaan seorang ayah terletak pada kesadaran bahwa ia memiliki kesempatan untuk mengubah dunia melalui anaknya.
 
