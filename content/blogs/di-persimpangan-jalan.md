@@ -15,9 +15,9 @@ Ah, keringat deras mengucur seakan menjadi tanda dahaga.
 Lapar... Haus... Seolah memberikan pilihan untuk rehat atau terus.
 
 
-Aku tiba di persimpangan jalan, sembari menerka-nerka arah mata angin yang harus dituju
+Sang pria tiba di persimpangan jalan, sembari menerka-nerka arah mata angin yang harus dituju
 
-"Utara" saut pikiranku seakan membangunkan lamunanku
+"Utara" saut pikirannya seakan membangunkan lamunan
 
 Langkah gontai semakin terlihat, meninggalkan jasad yang sedari tadi terlewat
 
