@@ -1,9 +1,10 @@
----
-title: Exploring Solo, A Journey through Walkable Streets and Safety
-description: Here is a glimpse of how we enjoy the city
-date: 2023-06-1T16:11:08.123Z
-tags:
-  - story
++++
+title = "New hugo theme, Cereus-Pro!"
+description = "Blazing Fast & Minimalist Blog theme"
+date = 2019-04-28T22:01:23+08:00
+tags = ["Hugo", "SSG", "Project"]
+draft = false
++++
 ---
 {{< img src="images/uploads/solo1.jpg" alt="Kota Solo" >}}
 
