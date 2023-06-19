@@ -5,10 +5,6 @@ description = "About page is a page to describe who I am."
 hidden = true
 +++
 
-## Hi! There.
+## Hai.
 
-My Name is Rahmat H Slamet, Known as Arhen as my global username. I am an engineer who likes to solve problems, and learn new things. Quickly adapt both individually or teams. Specifically very much in love with Linux and Web Technology. My technical skill is around Web Planning then Development using PHP Native/Framework and C# Asp.Net Core.
-
-### Github
-This is my github card that show my activity.
-<div class="github-card" data-user="arhen" data-width="100%" data-height="200" style="height: 200"></div>
+Saya Panji, penulis payah yang sempat ingin berhenti menulis karena, ya, tulisannya memang nggak bagus-bagus amat. Meski pada akhirnya terus menerus menulis karena itulah salah satu cara gratis untuk sekadar menyembuhkan, mengobati, atau bahkan membuat luka. Jadi, agaknya kamu membuang-buang waktu untuk membaca tulisan sampah ini. Stop di situ saja, jangan dilanjutkan hehe.
