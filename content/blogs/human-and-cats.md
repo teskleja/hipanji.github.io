@@ -1,9 +1,10 @@
----
-title: Human and Cats, Between Happiness and Stress Relief
-description: Not gonna lie, they are just way cute
-date: 2023-05-20T08:42:14.995Z
-tags:
-  - story
++++
+title = "New hugo theme, Cereus-Pro!"
+description = "Blazing Fast & Minimalist Blog theme"
+date = 2019-04-28T22:01:23+08:00
+tags = ["Hugo", "SSG", "Project"]
+draft = false
++++
 ---
 The bond between humans and cats is a unique and cherished relationship that brings forth immense joy, heartwarming moments of cuteness, and even acts as a source of stress relief. Experts and studies highlight the profound positive impact that cats have on human well-being, solidifying their position as beloved companions in our lives.
 
